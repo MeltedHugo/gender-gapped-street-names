@@ -1,0 +1,4515 @@
+{
+  "Kardinal-Galen-Straße": {
+    "wikidataId": "Q76439",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q250867",
+          "Q482980",
+          "Q1397808",
+          "Q611644"
+        ]
+      }
+    ],
+    "length": 214.29
+  },
+  "Platanenallee": {
+    "wikidataId": "Q161374",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 421.163
+  },
+  "Schweinheimer Straße": {
+    "wikidataId": "Q2255724",
+    "wikidata": [
+      {
+        "type": "Q253019"
+      }
+    ],
+    "length": 2070.986
+  },
+  "Herrleinstraße": {
+    "wikidataId": "Q347859",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q82955"
+        ]
+      }
+    ],
+    "length": 504.827
+  },
+  "Adlerstraße": {
+    "wikidataId": "Q30085",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 967.687
+  },
+  "Habichtstraße": {
+    "wikidataId": "Q25353",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 501.984
+  },
+  "Mendelweg": {
+    "wikidataId": "Q37970",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q864503",
+          "Q3126128",
+          "Q852389",
+          "Q170790",
+          "Q2374149",
+          "Q250867",
+          "Q18805"
+        ]
+      }
+    ],
+    "length": 109.948
+  },
+  "Linkstraße": {
+    "wikidataId": "Q125860347",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q37226",
+          "Q1056391",
+          "Q109925875"
+        ]
+      }
+    ],
+    "length": 1932.615
+  },
+  "Adenauerbrücke": {
+    "wikidataId": "Q2492",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [
+          "Q157537",
+          "Q49762"
+        ],
+        "jobs": [
+          "Q40348",
+          "Q16533",
+          "Q335757",
+          "Q82955",
+          "Q1397808",
+          "Q18814623",
+          "Q56022",
+          "Q10732476"
+        ]
+      }
+    ],
+    "length": 2042.258
+  },
+  "Hanauer Straße": {
+    "wikidataId": "Q3802",
+    "wikidata": [
+      {
+        "type": "Q3678424"
+      }
+    ],
+    "length": 2160.624
+  },
+  "Löherstraße": {
+    "wikidataId": "Q1868171",
+    "wikidata": [
+      {
+        "type": "Q28640"
+      }
+    ],
+    "length": 480.96
+  },
+  "Suicardusstraße": {
+    "wikidataId": "Q95563",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q250867"
+        ]
+      }
+    ],
+    "length": 532.934
+  },
+  "Edith-Stein-Straße": {
+    "wikidataId": "Q76749",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581072"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q333634",
+          "Q4964182",
+          "Q36180",
+          "Q1397808",
+          "Q14467526",
+          "Q1622272",
+          "Q191808",
+          "Q18814623"
+        ]
+      }
+    ],
+    "length": 265.995
+  },
+  "Dr.-Willi-Reiland-Ring": {
+    "wikidataId": "Q2577426",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [
+          "Q49768"
+        ],
+        "jobs": [
+          "Q82955"
+        ]
+      }
+    ],
+    "length": 3756.244
+  },
+  "Ulmenweg": {
+    "wikidataId": "Q131113",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 1965.657
+  },
+  "Taunusstraße": {
+    "wikidataId": "Q158884",
+    "wikidata": [
+      {
+        "type": "Q674541"
+      }
+    ],
+    "length": 394.618
+  },
+  "Ansbacher Straße": {
+    "wikidataId": "Q14859",
+    "wikidata": [
+      {
+        "type": "Q42744322"
+      }
+    ],
+    "length": 169.669
+  },
+  "Bayreuther Straße": {
+    "wikidataId": "Q3923",
+    "wikidata": [
+      {
+        "type": "Q42744322"
+      }
+    ],
+    "length": 414.229
+  },
+  "Fürther Straße": {
+    "wikidataId": "Q3075",
+    "wikidata": [
+      {
+        "type": "Q1549591"
+      }
+    ],
+    "length": 198.969
+  },
+  "Würzburger Straße": {
+    "wikidataId": "Q2999",
+    "wikidata": [
+      {
+        "type": "Q1549591"
+      }
+    ],
+    "length": 11647.768
+  },
+  "Hohenzollernring": {
+    "wikidataId": "Q83969",
+    "wikidata": [
+      {
+        "type": "Q164950"
+      }
+    ],
+    "length": 447.824
+  },
+  "Elisenstraße": {
+    "wikidataId": "Q125857844",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581072"
+        ],
+        "parties": [],
+        "jobs": []
+      }
+    ],
+    "length": 485.762
+  },
+  "Ludwigstraße": {
+    "wikidataId": "Q44039",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q10732476",
+          "Q116"
+        ]
+      }
+    ],
+    "length": 844.708
+  },
+  "Kolpingstraße": {
+    "wikidataId": "Q60619",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q250867",
+          "Q8359428",
+          "Q1234713"
+        ]
+      }
+    ],
+    "length": 137.752
+  },
+  "Goldbacher Straße": {
+    "wikidataId": "Q516238",
+    "wikidata": [
+      {
+        "type": "Q100341898"
+      }
+    ],
+    "length": 2807.648
+  },
+  "Dalbergstraße": {
+    "wikidataId": "Q61353",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q250867",
+          "Q36180",
+          "Q611644"
+        ]
+      }
+    ],
+    "length": 437.56
+  },
+  "Maybachstraße": {
+    "wikidataId": "Q77125",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q81096",
+          "Q131524",
+          "Q205375",
+          "Q6606110"
+        ]
+      }
+    ],
+    "length": 185.322
+  },
+  "Daimlerstraße": {
+    "wikidataId": "Q70788",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q205375",
+          "Q81096",
+          "Q131524",
+          "Q6606110"
+        ]
+      }
+    ],
+    "length": 900.348
+  },
+  "Dyroffstraße": {
+    "wikidataId": "Q92481",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q4964182",
+          "Q212980",
+          "Q1231865",
+          "Q36180",
+          "Q1622272"
+        ]
+      }
+    ],
+    "length": 455.915
+  },
+  "Goethestraße": {
+    "wikidataId": "Q5879",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1776724",
+          "Q2374149",
+          "Q82955",
+          "Q1028181",
+          "Q4964182",
+          "Q1234713",
+          "Q185351",
+          "Q4164507",
+          "Q1350157",
+          "Q182436",
+          "Q49757",
+          "Q3579035",
+          "Q169470",
+          "Q6673651",
+          "Q6625963",
+          "Q214917",
+          "Q18814623",
+          "Q193391",
+          "Q372436",
+          "Q270141",
+          "Q3606216",
+          "Q18939491",
+          "Q13416354",
+          "Q350979",
+          "Q17391638",
+          "Q40348",
+          "Q36834",
+          "Q8178443",
+          "Q36180",
+          "Q3391743",
+          "Q1792450"
+        ]
+      }
+    ],
+    "length": 217.567
+  },
+  "Görresstraße": {
+    "wikidataId": "Q215730",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q36180",
+          "Q201788",
+          "Q1622272",
+          "Q1930187",
+          "Q82955",
+          "Q13570226"
+        ]
+      }
+    ],
+    "length": 130.582
+  },
+  "Dinglerstraße": {
+    "wikidataId": "Q1563946",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q2374149",
+          "Q1622272"
+        ]
+      }
+    ],
+    "length": 340.305
+  },
+  "Cornelienstraße": {
+    "wikidataId": "Q125838951",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581072"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1968442"
+        ]
+      }
+    ],
+    "length": 529.034
+  },
+  "Dilsheimerstraße": {
+    "wikidataId": "Q125839547",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1968442"
+        ]
+      }
+    ],
+    "length": 101.456
+  },
+  "Hettingerstraße": {
+    "wikidataId": "Q125838800",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1622272",
+          "Q1234713"
+        ]
+      }
+    ],
+    "length": 311.958
+  },
+  "Willigisstraße": {
+    "wikidataId": "Q77564",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q250867"
+        ]
+      }
+    ],
+    "length": 142.932
+  },
+  "Deutsche Straße": {
+    "wikidataId": "Q183",
+    "wikidata": [
+      {
+        "type": "Q3624078"
+      }
+    ],
+    "length": 1302.129
+  },
+  "Bayernstraße": {
+    "wikidataId": "Q980",
+    "wikidata": [
+      {
+        "type": "Q1221156"
+      }
+    ],
+    "length": 312.68
+  },
+  "Liebigplatz": {
+    "wikidataId": "Q16571",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q593644",
+          "Q205375",
+          "Q1622272",
+          "Q1781198",
+          "Q36180"
+        ]
+      }
+    ],
+    "length": 70.197
+  },
+  "Mitscherlichweg": {
+    "wikidataId": "Q73148",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q593644",
+          "Q1622272"
+        ]
+      }
+    ],
+    "length": 106.084
+  },
+  "Siemensweg": {
+    "wikidataId": "Q58577",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [
+          "Q694714"
+        ],
+        "jobs": [
+          "Q131524",
+          "Q151197",
+          "Q205375",
+          "Q81096",
+          "Q82955",
+          "Q66711686"
+        ]
+      }
+    ],
+    "length": 132.474
+  },
+  "Martin-Luther-Straße": {
+    "wikidataId": "Q9554",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q333634",
+          "Q1234713",
+          "Q121594",
+          "Q548320",
+          "Q40348",
+          "Q24262584",
+          "Q13424456",
+          "Q763779",
+          "Q831474",
+          "Q4964182",
+          "Q152002",
+          "Q36180",
+          "Q432386",
+          "Q36834",
+          "Q916292"
+        ]
+      }
+    ],
+    "length": 327.284
+  },
+  "Rüsterweg": {
+    "wikidataId": "Q131113",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 660.582
+  },
+  "Jean-Stock-Straße": {
+    "wikidataId": "Q1685836",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [
+          "Q49768",
+          "Q310296"
+        ],
+        "jobs": [
+          "Q82955",
+          "Q16533",
+          "Q40881196"
+        ]
+      }
+    ],
+    "length": 814.221
+  },
+  "Ebertbrücke": {
+    "wikidataId": "Q2646",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [
+          "Q49768",
+          "Q2801301"
+        ],
+        "jobs": [
+          "Q82955"
+        ]
+      }
+    ],
+    "length": 1431.367
+  },
+  "Aschaffstraße": {
+    "wikidataId": "Q721987",
+    "wikidata": [
+      {
+        "type": "Q4022"
+      }
+    ],
+    "length": 785.818
+  },
+  "Moltkestraße": {
+    "wikidataId": "Q44205",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [
+          "Q458791",
+          "Q1782535"
+        ],
+        "jobs": [
+          "Q36180",
+          "Q189290",
+          "Q201788",
+          "Q82955"
+        ]
+      }
+    ],
+    "length": 155.611
+  },
+  "Tannstraße": {
+    "wikidataId": "Q76454",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q47064"
+        ]
+      }
+    ],
+    "length": 128.851
+  },
+  "Scharnhorststraße": {
+    "wikidataId": "Q170340",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q82955",
+          "Q189290"
+        ]
+      }
+    ],
+    "length": 261.496
+  },
+  "Schwarzenbergstraße": {
+    "wikidataId": "Q163755",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q47064",
+          "Q189290",
+          "Q121998",
+          "Q193391",
+          "Q4991371"
+        ]
+      }
+    ],
+    "length": 240.603
+  },
+  "Arndtstraße": {
+    "wikidataId": "Q57351",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q49757",
+          "Q36180",
+          "Q1622272",
+          "Q201788",
+          "Q82955"
+        ]
+      }
+    ],
+    "length": 203.215
+  },
+  "Kirchnerstraße": {
+    "wikidataId": "Q229272",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1028181",
+          "Q644687",
+          "Q33231",
+          "Q1925963",
+          "Q1281618",
+          "Q11569986",
+          "Q5322166",
+          "Q14623005",
+          "Q15296811",
+          "Q3391743"
+        ]
+      }
+    ],
+    "length": 406.263
+  },
+  "Lindestraße": {
+    "wikidataId": "Q61864",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q81096",
+          "Q169470",
+          "Q1622272",
+          "Q131524"
+        ]
+      }
+    ],
+    "length": 570.494
+  },
+  "Bamberger Straße": {
+    "wikidataId": "Q3936",
+    "wikidata": [
+      {
+        "type": "Q1187811"
+      }
+    ],
+    "length": 203.148
+  },
+  "Maximilianstraße": {
+    "wikidataId": "Q44530",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q82955",
+          "Q372436"
+        ]
+      }
+    ],
+    "length": 289.363
+  },
+  "Emanuel-Joseph-von-Herigoyen-Straße": {
+    "wikidataId": "Q1334673",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q42973"
+        ]
+      }
+    ],
+    "length": 310.672
+  },
+  "Leinwanderstraße": {
+    "wikidataId": "Q125859602",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q110454953"
+        ]
+      }
+    ],
+    "length": 99.223
+  },
+  "Tiroler Straße": {
+    "wikidataId": "Q42880",
+    "wikidata": [
+      {
+        "type": "Q261543"
+      }
+    ],
+    "length": 151.161
+  },
+  "Yorckstraße": {
+    "wikidataId": "Q65432",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q189290"
+        ]
+      }
+    ],
+    "length": 716.554
+  },
+  "Luitpoldstraße": {
+    "wikidataId": "Q44785",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q477406"
+        ]
+      }
+    ],
+    "length": 308.297
+  },
+  "Frankenstraße": {
+    "wikidataId": "Q150907",
+    "wikidata": [
+      {
+        "type": "Q82794"
+      }
+    ],
+    "length": 185.315
+  },
+  "Thüringer Straße": {
+    "wikidataId": "Q1205",
+    "wikidata": [
+      {
+        "type": "Q1221156"
+      }
+    ],
+    "length": 113.388
+  },
+  "Friedrichstraße": {
+    "wikidataId": "Q58600",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q82955"
+        ]
+      }
+    ],
+    "length": 672.996
+  },
+  "Bodelschwinghstraße": {
+    "wikidataId": "Q87306",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1234713",
+          "Q152002",
+          "Q82955"
+        ]
+      }
+    ],
+    "length": 152.737
+  },
+  "Lothringer Straße": {
+    "wikidataId": "Q1137",
+    "wikidata": [
+      {
+        "type": "Q3502482"
+      }
+    ],
+    "length": 54.397
+  },
+  "Hessenstraße": {
+    "wikidataId": "Q1199",
+    "wikidata": [
+      {
+        "type": "Q1221156"
+      }
+    ],
+    "length": 105.674
+  },
+  "Preußenweg": {
+    "wikidataId": "Q27306",
+    "wikidata": [
+      {
+        "type": "Q3024240"
+      }
+    ],
+    "length": 247.339
+  },
+  "Danziger Straße": {
+    "wikidataId": "Q1792",
+    "wikidata": [
+      {
+        "type": "Q1549591"
+      }
+    ],
+    "length": 170.607
+  },
+  "Breslauer Straße": {
+    "wikidataId": "Q1799",
+    "wikidata": [
+      {
+        "type": "Q925381"
+      }
+    ],
+    "length": 470.902
+  },
+  "Glattbacher Überfahrt": {
+    "wikidataId": "Q507364",
+    "wikidata": [
+      {
+        "type": "Q116457956"
+      }
+    ],
+    "length": 459.194
+  },
+  "Glattbacher Straße": {
+    "wikidataId": "Q507364",
+    "wikidata": [
+      {
+        "type": "Q116457956"
+      }
+    ],
+    "length": 1966.042
+  },
+  "Weichertstraße": {
+    "wikidataId": "Q125857789",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": []
+      }
+    ],
+    "length": 1371.073
+  },
+  "Erlenmeyerstraße": {
+    "wikidataId": "Q76597",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q593644",
+          "Q1622272",
+          "Q105186"
+        ]
+      }
+    ],
+    "length": 196.263
+  },
+  "Heinsestraße": {
+    "wikidataId": "Q64489",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q36180",
+          "Q182436",
+          "Q333634",
+          "Q1209498",
+          "Q20826540",
+          "Q1792450"
+        ]
+      }
+    ],
+    "length": 193.612
+  },
+  "Südbahnhofstraße": {
+    "wikidataId": "Q125840053",
+    "wikidata": [
+      {
+        "type": "Q55488"
+      }
+    ],
+    "length": 1046.588
+  },
+  "Müllerstraße": {
+    "wikidataId": "Q55122276",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q21244999",
+          "Q82955",
+          "Q131524"
+        ]
+      }
+    ],
+    "length": 440.338
+  },
+  "Hummelweg": {
+    "wikidataId": "Q25407",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 142.902
+  },
+  "Bienenweg": {
+    "wikidataId": "Q7391",
+    "wikidata": [
+      {
+        "type": "Q713623"
+      }
+    ],
+    "length": 107.623
+  },
+  "Behlenstraße": {
+    "wikidataId": "Q1785623",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1895303",
+          "Q15924544",
+          "Q15980158",
+          "Q1622272",
+          "Q3055126",
+          "Q2374149"
+        ]
+      }
+    ],
+    "length": 234.243
+  },
+  "Merlostraße": {
+    "wikidataId": "Q125861977",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581072"
+        ],
+        "parties": [],
+        "jobs": []
+      }
+    ],
+    "length": 320.397
+  },
+  "Duccastraße": {
+    "wikidataId": "Q125857993",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": []
+      }
+    ],
+    "length": 121.792
+  },
+  "Schlesier Straße": {
+    "wikidataId": "Q81720",
+    "wikidata": [
+      {
+        "type": "Q82794"
+      }
+    ],
+    "length": 120.543
+  },
+  "Holsteiner Straße": {
+    "wikidataId": "Q111224",
+    "wikidata": [
+      {
+        "type": "Q82794"
+      }
+    ],
+    "length": 123.373
+  },
+  "Friesenstraße": {
+    "wikidataId": "Q106416",
+    "wikidata": [
+      {
+        "type": "Q2472587"
+      }
+    ],
+    "length": 243.719
+  },
+  "Kleberstraße": {
+    "wikidataId": "Q125857928",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": []
+      }
+    ],
+    "length": 148.622
+  },
+  "Lohmühlstraße": {
+    "wikidataId": "Q374116",
+    "wikidata": [
+      {
+        "type": "unknown"
+      }
+    ],
+    "length": 1038.46
+  },
+  "Steinstraße": {
+    "wikidataId": "Q213542",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q82955",
+          "Q201788"
+        ]
+      }
+    ],
+    "length": 194.717
+  },
+  "Gneisenaustraße": {
+    "wikidataId": "Q165519",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q189290",
+          "Q82955",
+          "Q763779"
+        ]
+      }
+    ],
+    "length": 228.288
+  },
+  "Sachsenweg": {
+    "wikidataId": "Q1202",
+    "wikidata": [
+      {
+        "type": "Q1221156"
+      }
+    ],
+    "length": 164.785
+  },
+  "Kittelstraße": {
+    "wikidataId": "Q6774932",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q2374149"
+        ]
+      }
+    ],
+    "length": 107.148
+  },
+  "Bustellistraße": {
+    "wikidataId": "Q125839650",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": []
+      }
+    ],
+    "length": 187.501
+  },
+  "Agathaplatz": {
+    "wikidataId": "Q200895",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581072"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q32859833"
+        ]
+      }
+    ],
+    "length": 123.591
+  },
+  "Kopernikusstraße": {
+    "wikidataId": "Q619",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q11063",
+          "Q185351",
+          "Q188094",
+          "Q170790",
+          "Q16012028",
+          "Q169470",
+          "Q4964182",
+          "Q333634",
+          "Q39631",
+          "Q193391",
+          "Q36180",
+          "Q1104153",
+          "Q1237385"
+        ]
+      }
+    ],
+    "length": 124.149
+  },
+  "Keplerstraße": {
+    "wikidataId": "Q8963",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q18805",
+          "Q155647",
+          "Q98833883",
+          "Q170790",
+          "Q11063",
+          "Q14915627",
+          "Q169470",
+          "Q2998308",
+          "Q16031530",
+          "Q4964182",
+          "Q36180",
+          "Q37226",
+          "Q205375"
+        ]
+      }
+    ],
+    "length": 1505.516
+  },
+  "St.-Martinsgasse": {
+    "wikidataId": "Q133704",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q250867",
+          "Q4991371",
+          "Q611644"
+        ]
+      }
+    ],
+    "length": 220.957
+  },
+  "Memeler Straße": {
+    "wikidataId": "Q776965",
+    "wikidata": [
+      {
+        "type": "Q515"
+      }
+    ],
+    "length": 230.511
+  },
+  "Königsberger Straße": {
+    "wikidataId": "Q1829",
+    "wikidata": [
+      {
+        "type": "Q12134916"
+      }
+    ],
+    "length": 94.36
+  },
+  "Saarstraße": {
+    "wikidataId": "Q153972",
+    "wikidata": [
+      {
+        "type": "Q4022"
+      }
+    ],
+    "length": 77.717
+  },
+  "Zeppelinstraße": {
+    "wikidataId": "Q75780",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q2095549",
+          "Q47064",
+          "Q728425",
+          "Q81096",
+          "Q10497074"
+        ]
+      }
+    ],
+    "length": 257.693
+  },
+  "Benzstraße": {
+    "wikidataId": "Q40224",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q81096",
+          "Q205375"
+        ]
+      }
+    ],
+    "length": 350.806
+  },
+  "Meitnerweg": {
+    "wikidataId": "Q56189",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581072"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q16742096",
+          "Q1622272",
+          "Q593644",
+          "Q169470"
+        ]
+      }
+    ],
+    "length": 81.995
+  },
+  "Einsteinstraße": {
+    "wikidataId": "Q937",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [
+          "Q328195"
+        ],
+        "jobs": [
+          "Q19350898",
+          "Q16389557",
+          "Q205375",
+          "Q3745071",
+          "Q1231865",
+          "Q1622272",
+          "Q169470",
+          "Q4964182",
+          "Q36180",
+          "Q901",
+          "Q170790",
+          "Q2896489",
+          "Q121594",
+          "Q16003550"
+        ]
+      }
+    ],
+    "length": 383.23
+  },
+  "Gaußweg": {
+    "wikidataId": "Q6722",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q170790",
+          "Q12094958",
+          "Q11063",
+          "Q3745071",
+          "Q169470",
+          "Q294126",
+          "Q1622272",
+          "Q2732142",
+          "Q901"
+        ]
+      }
+    ],
+    "length": 177.564
+  },
+  "Hahnweg": {
+    "wikidataId": "Q57065",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q593644",
+          "Q1622272",
+          "Q15980158",
+          "Q16742096",
+          "Q18814623"
+        ]
+      }
+    ],
+    "length": 90.807
+  },
+  "Wiesnerstraße": {
+    "wikidataId": "Q125862083",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q39631"
+        ]
+      }
+    ],
+    "length": 175.115
+  },
+  "Odenwaldstraße": {
+    "wikidataId": "Q8359",
+    "wikidata": [
+      {
+        "type": "Q674541"
+      }
+    ],
+    "length": 668.223
+  },
+  "Rhönstraße": {
+    "wikidataId": "Q148988",
+    "wikidata": [
+      {
+        "type": "Q674541"
+      }
+    ],
+    "length": 1473.293
+  },
+  "Alois-Grimm-Straße": {
+    "wikidataId": "Q125855917",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q4991371",
+          "Q201788",
+          "Q42973"
+        ]
+      }
+    ],
+    "length": 237.682
+  },
+  "Bussardweg": {
+    "wikidataId": "Q235152",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 1048.062
+  },
+  "Pfarrer-Scherpf-Straße": {
+    "wikidataId": "Q99533190",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q250867"
+        ]
+      }
+    ],
+    "length": 201.376
+  },
+  "Magnolienweg": {
+    "wikidataId": "Q157017",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 959.807
+  },
+  "Kneippstraße": {
+    "wikidataId": "Q45075",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q2576499",
+          "Q2518689",
+          "Q1469535",
+          "Q36180",
+          "Q112130227"
+        ]
+      }
+    ],
+    "length": 602.711
+  },
+  "Holbeinstraße": {
+    "wikidataId": "Q48319",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1028181",
+          "Q11569986",
+          "Q1925963",
+          "Q644687",
+          "Q21178131",
+          "Q15296811",
+          "Q107212688"
+        ]
+      }
+    ],
+    "length": 156.44
+  },
+  "Flachstraße": {
+    "wikidataId": "Q25796495",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q3055126"
+        ]
+      }
+    ],
+    "length": 391.853
+  },
+  "Bessenbacher Weg": {
+    "wikidataId": "Q331237",
+    "wikidata": [
+      {
+        "type": "Q116457956"
+      }
+    ],
+    "length": 2956.715
+  },
+  "Hartmannstraße": {
+    "wikidataId": "Q27967499",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q36180",
+          "Q201788"
+        ]
+      }
+    ],
+    "length": 296.353
+  },
+  "Ludwigsallee": {
+    "wikidataId": "Q44361",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q49757"
+        ]
+      }
+    ],
+    "length": 1026.708
+  },
+  "Gentilstraße": {
+    "wikidataId": "Q589594",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q131524",
+          "Q42855995"
+        ]
+      }
+    ],
+    "length": 432.714
+  },
+  "Wendelbergstraße": {
+    "wikidataId": "Q125856445",
+    "wikidata": [
+      {
+        "type": "Q54050"
+      }
+    ],
+    "length": 741.937
+  },
+  "Leimeisterweg": {
+    "wikidataId": "Q125855648",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q182436"
+        ]
+      }
+    ],
+    "length": 224.972
+  },
+  "Großostheimer Straße": {
+    "wikidataId": "Q504246",
+    "wikidata": [
+      {
+        "type": "Q100341898"
+      }
+    ],
+    "length": 4715.669
+  },
+  "Efeuweg": {
+    "wikidataId": "Q26771",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 87.312
+  },
+  "Pappelweg": {
+    "wikidataId": "Q25356",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 456.568
+  },
+  "Tannenweg": {
+    "wikidataId": "Q25350",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 669.618
+  },
+  "Aprikosenweg": {
+    "wikidataId": "Q37453",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 105.675
+  },
+  "Quittenweg": {
+    "wikidataId": "Q43300",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 114.174
+  },
+  "Hibiskusweg": {
+    "wikidataId": "Q157124",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 202.806
+  },
+  "Föhrenweg": {
+    "wikidataId": "Q12024",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 426.238
+  },
+  "Weißdornweg": {
+    "wikidataId": "Q132557",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 102.266
+  },
+  "Weidenweg": {
+    "wikidataId": "Q36050",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 185.769
+  },
+  "Geschwister-Scholl-Platz": {
+    "wikidataId": "Q57820;Q76972",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q16003550",
+          "Q1397808"
+        ]
+      },
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581072"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q315247",
+          "Q1397808"
+        ]
+      }
+    ],
+    "length": 386.331
+  },
+  "Kastanienweg": {
+    "wikidataId": "Q129324",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 299.146
+  },
+  "Ahornweg": {
+    "wikidataId": "Q42292",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 1937.247
+  },
+  "Eichenweg": {
+    "wikidataId": "Q12004",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 273.988
+  },
+  "Akazienweg": {
+    "wikidataId": "Q5861969",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 230.859
+  },
+  "Lindenweg": {
+    "wikidataId": "Q127849",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 415.879
+  },
+  "Eschenweg": {
+    "wikidataId": "Q128887",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 386.72
+  },
+  "Eibenweg": {
+    "wikidataId": "Q27355",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 132.462
+  },
+  "Kiefernweg": {
+    "wikidataId": "Q12024",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 452.847
+  },
+  "Palmenweg": {
+    "wikidataId": "Q14080",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 178.238
+  },
+  "Zypressenweg": {
+    "wikidataId": "Q146911",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 181.362
+  },
+  "Fichtenweg": {
+    "wikidataId": "Q26782",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 488.081
+  },
+  "Zedernweg": {
+    "wikidataId": "Q128550",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 179.306
+  },
+  "Prälat-Heckelmann-Straße": {
+    "wikidataId": "Q94934988",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q4958876"
+        ]
+      }
+    ],
+    "length": 293.489
+  },
+  "Dietrich-Bonhoeffer-Straße": {
+    "wikidataId": "Q76326",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1234713",
+          "Q4964182",
+          "Q1397808",
+          "Q49757",
+          "Q955464"
+        ]
+      }
+    ],
+    "length": 497.869
+  },
+  "Georg-Dewald-Straße": {
+    "wikidataId": "Q1504046",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [
+          "Q49768"
+        ],
+        "jobs": [
+          "Q82955"
+        ]
+      }
+    ],
+    "length": 266.113
+  },
+  "Rupert-Mayer-Straße": {
+    "wikidataId": "Q45283",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1234713",
+          "Q250867",
+          "Q1397808"
+        ]
+      }
+    ],
+    "length": 261.274
+  },
+  "Alfred-Delp-Straße": {
+    "wikidataId": "Q61305",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q250867",
+          "Q1397808",
+          "Q1234713"
+        ]
+      }
+    ],
+    "length": 331.512
+  },
+  "Jochen-Klepper-Straße": {
+    "wikidataId": "Q76329",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q49757",
+          "Q1930187",
+          "Q18939491",
+          "Q36180",
+          "Q13424456",
+          "Q1234713"
+        ]
+      }
+    ],
+    "length": 161.651
+  },
+  "Pinienweg": {
+    "wikidataId": "Q106094",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 176.468
+  },
+  "Spessartstraße": {
+    "wikidataId": "Q182470",
+    "wikidata": [
+      {
+        "type": "Q674541"
+      }
+    ],
+    "length": 1400.412
+  },
+  "Lorenzstraße": {
+    "wikidataId": "Q125856285;Q125856305",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q39631",
+          "Q1595570"
+        ]
+      },
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q548320",
+          "Q1595570"
+        ]
+      }
+    ],
+    "length": 318.607
+  },
+  "Cranachstraße": {
+    "wikidataId": "Q191748",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1028181",
+          "Q11569986",
+          "Q1925963",
+          "Q14623005",
+          "Q5322166",
+          "Q483501",
+          "Q15296811",
+          "Q13365770",
+          "Q105186",
+          "Q2516866"
+        ]
+      }
+    ],
+    "length": 660.614
+  },
+  "Beckerstraße": {
+    "wikidataId": "Q1712823",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [
+          "Q7320"
+        ],
+        "jobs": [
+          "Q36180",
+          "Q214917",
+          "Q49757"
+        ]
+      }
+    ],
+    "length": 588.344
+  },
+  "Kihnstraße": {
+    "wikidataId": "Q1731911",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q201788"
+        ]
+      }
+    ],
+    "length": 154.254
+  },
+  "Schepplerweg": {
+    "wikidataId": "Q125855352",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [
+          "Q7320"
+        ],
+        "jobs": []
+      }
+    ],
+    "length": 157.815
+  },
+  "Kettererstraße": {
+    "wikidataId": "Q125856357",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q37226",
+          "Q1595570"
+        ]
+      }
+    ],
+    "length": 214.503
+  },
+  "St.-Pius-Weg": {
+    "wikidataId": "Q43739",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q250867",
+          "Q25393460",
+          "Q611644"
+        ]
+      }
+    ],
+    "length": 110.508
+  },
+  "Hönleinweg": {
+    "wikidataId": "Q56285023",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [
+          "Q7320"
+        ],
+        "jobs": [
+          "Q39631",
+          "Q1595570"
+        ]
+      }
+    ],
+    "length": 127.085
+  },
+  "Am Funkhaus": {
+    "wikidataId": "Q1335052",
+    "wikidata": [
+      {
+        "type": "unknown"
+      }
+    ],
+    "length": 417.111
+  },
+  "Medicusstraße": {
+    "wikidataId": "Q1463880",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q82955"
+        ]
+      }
+    ],
+    "length": 735.006
+  },
+  "Hockstraße": {
+    "wikidataId": "Q94879009",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1028181"
+        ]
+      }
+    ],
+    "length": 741.022
+  },
+  "Alois-Alzheimer-Allee": {
+    "wikidataId": "Q70530",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q211346",
+          "Q15839237",
+          "Q6337803",
+          "Q1622272",
+          "Q783906",
+          "Q39631"
+        ]
+      }
+    ],
+    "length": 1015.324
+  },
+  "Memlingweg": {
+    "wikidataId": "Q106851",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1028181",
+          "Q483501"
+        ]
+      }
+    ],
+    "length": 132.344
+  },
+  "Ruhrstraße": {
+    "wikidataId": "Q1664",
+    "wikidata": [
+      {
+        "type": "Q4022"
+      }
+    ],
+    "length": 125.24
+  },
+  "Schongauerstraße": {
+    "wikidataId": "Q155575",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1028181",
+          "Q329439",
+          "Q1925963",
+          "Q13365770"
+        ]
+      }
+    ],
+    "length": 199.538
+  },
+  "Backoffenstraße": {
+    "wikidataId": "Q536275",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1281618"
+        ]
+      }
+    ],
+    "length": 157.651
+  },
+  "Bechtoldstraße": {
+    "wikidataId": "Q23000535",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1028181"
+        ]
+      }
+    ],
+    "length": 190.516
+  },
+  "Dürerstraße": {
+    "wikidataId": "Q5580",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1028181",
+          "Q11569986",
+          "Q170790",
+          "Q998628",
+          "Q13365770",
+          "Q17391638",
+          "Q15296811",
+          "Q644687",
+          "Q1925963",
+          "Q107212688",
+          "Q3391743"
+        ]
+      }
+    ],
+    "length": 246.973
+  },
+  "Vischerstraße": {
+    "wikidataId": "Q644278",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1281618",
+          "Q1294787"
+        ]
+      }
+    ],
+    "length": 137.973
+  },
+  "Schweinfurter Straße": {
+    "wikidataId": "Q4126",
+    "wikidata": [
+      {
+        "type": "Q253030"
+      }
+    ],
+    "length": 272.589
+  },
+  "Nürnberger Straße": {
+    "wikidataId": "Q2090",
+    "wikidata": [
+      {
+        "type": "Q1549591"
+      }
+    ],
+    "length": 364.136
+  },
+  "Christian-Schad-Straße": {
+    "wikidataId": "Q703331",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [
+          "Q7320"
+        ],
+        "jobs": [
+          "Q1028181",
+          "Q33231",
+          "Q1925963",
+          "Q22343478"
+        ]
+      }
+    ],
+    "length": 644.636
+  },
+  "Marielies-Schleicher-Straße": {
+    "wikidataId": "Q1665245",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581072"
+        ],
+        "parties": [
+          "Q49763"
+        ],
+        "jobs": [
+          "Q82955"
+        ]
+      }
+    ],
+    "length": 842.642
+  },
+  "Reigersbergstraße": {
+    "wikidataId": "Q1667969",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q16533",
+          "Q82955",
+          "Q13311320",
+          "Q690928",
+          "Q185351"
+        ]
+      }
+    ],
+    "length": 532.97
+  },
+  "Bardroffstraße": {
+    "wikidataId": "Q125839040",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": []
+      }
+    ],
+    "length": 245.658
+  },
+  "Stadelmannstraße": {
+    "wikidataId": "Q125838664",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q955464"
+        ]
+      }
+    ],
+    "length": 505.109
+  },
+  "Liebigstraße": {
+    "wikidataId": "Q16571",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q593644",
+          "Q205375",
+          "Q1622272",
+          "Q1781198",
+          "Q36180"
+        ]
+      }
+    ],
+    "length": 172.166
+  },
+  "Hefner-Alteneck-Straße": {
+    "wikidataId": "Q99560",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1792450",
+          "Q644687"
+        ]
+      }
+    ],
+    "length": 897.592
+  },
+  "Pestalozzistraße": {
+    "wikidataId": "Q105428",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1231865",
+          "Q12362622",
+          "Q4964182",
+          "Q82955",
+          "Q36180",
+          "Q131512",
+          "Q37226"
+        ]
+      }
+    ],
+    "length": 357.208
+  },
+  "Dunzerstraße": {
+    "wikidataId": "Q125839224",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1968442"
+        ]
+      }
+    ],
+    "length": 327.427
+  },
+  "Junckerstraße": {
+    "wikidataId": "Q125839195",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1281618"
+        ]
+      }
+    ],
+    "length": 74.121
+  },
+  "Mattstraße": {
+    "wikidataId": "Q1720170",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q82955"
+        ]
+      }
+    ],
+    "length": 632.05
+  },
+  "Schoberstraße": {
+    "wikidataId": "Q125843690",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q37226"
+        ]
+      }
+    ],
+    "length": 249.844
+  },
+  "Koloseusstraße": {
+    "wikidataId": "Q125856648",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q42855995"
+        ]
+      }
+    ],
+    "length": 91.26
+  },
+  "Karlstraße": {
+    "wikidataId": "Q61353",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q250867",
+          "Q36180",
+          "Q611644"
+        ]
+      }
+    ],
+    "length": 226.897
+  },
+  "Berliner Allee": {
+    "wikidataId": "Q64",
+    "wikidata": [
+      {
+        "type": "Q1901835"
+      }
+    ],
+    "length": 1406.734
+  },
+  "Brentanoplatz": {
+    "wikidataId": "Q57235",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q36180",
+          "Q49757",
+          "Q64733534",
+          "Q214917"
+        ]
+      }
+    ],
+    "length": 314.216
+  },
+  "Brentanostraße": {
+    "wikidataId": "Q57235",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q36180",
+          "Q49757",
+          "Q64733534",
+          "Q214917"
+        ]
+      }
+    ],
+    "length": 276.622
+  },
+  "null": {
+    "wikidataId": "Q57235",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q36180",
+          "Q49757",
+          "Q64733534",
+          "Q214917"
+        ]
+      }
+    ],
+    "length": 374.983
+  },
+  "Riemenschneiderstraße": {
+    "wikidataId": "Q44723",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1281618",
+          "Q1840507"
+        ]
+      }
+    ],
+    "length": 259.106
+  },
+  "Starenweg": {
+    "wikidataId": "Q25469",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 399.937
+  },
+  "Drosselweg": {
+    "wikidataId": "Q115661",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 325.855
+  },
+  "Amselweg": {
+    "wikidataId": "Q25234",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 374.372
+  },
+  "Falkenweg": {
+    "wikidataId": "Q43489",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 500.574
+  },
+  "Meisenweg": {
+    "wikidataId": "Q168473",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 197.486
+  },
+  "Schmetterlingsweg": {
+    "wikidataId": "Q28319",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 231.621
+  },
+  "Wespenweg": {
+    "wikidataId": "Q1076176",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 137.492
+  },
+  "Saaleweg": {
+    "wikidataId": "Q708356",
+    "wikidata": [
+      {
+        "type": "Q4022"
+      }
+    ],
+    "length": 91.62
+  },
+  "Lohrweg": {
+    "wikidataId": "Q872605",
+    "wikidata": [
+      {
+        "type": "Q4022"
+      }
+    ],
+    "length": 316.654
+  },
+  "Auraweg": {
+    "wikidataId": "Q774164",
+    "wikidata": [
+      {
+        "type": "Q4022"
+      }
+    ],
+    "length": 112.238
+  },
+  "Johannesberger Straße": {
+    "wikidataId": "Q510295",
+    "wikidata": [
+      {
+        "type": "Q116457956"
+      }
+    ],
+    "length": 334.389
+  },
+  "Erthalstraße": {
+    "wikidataId": "Q87611",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q250867",
+          "Q25393460",
+          "Q611644"
+        ]
+      }
+    ],
+    "length": 324.732
+  },
+  "Buchenweg": {
+    "wikidataId": "Q25403",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 277.927
+  },
+  "Stauffenbergstraße": {
+    "wikidataId": "Q21209",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q189290",
+          "Q1397808"
+        ]
+      }
+    ],
+    "length": 300.749
+  },
+  "Ligusterweg": {
+    "wikidataId": "Q753099",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 222.918
+  },
+  "Pfirsichweg": {
+    "wikidataId": "Q13189",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 175.797
+  },
+  "Am Lindenweg": {
+    "wikidataId": "Q127849",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 260.928
+  },
+  "Lärchenweg": {
+    "wikidataId": "Q25618",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 112.515
+  },
+  "Elsa-Brändström-Weg": {
+    "wikidataId": "Q469673",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581072"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q186360",
+          "Q37226",
+          "Q12362622",
+          "Q12043435"
+        ]
+      }
+    ],
+    "length": 424.514
+  },
+  "Cunibertstraße": {
+    "wikidataId": "Q125860087",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q185351"
+        ]
+      }
+    ],
+    "length": 136.252
+  },
+  "Münchstraße": {
+    "wikidataId": "Q125860060",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581072"
+        ],
+        "parties": [],
+        "jobs": []
+      }
+    ],
+    "length": 146.515
+  },
+  "Faustweg": {
+    "wikidataId": "Q125839315",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q690928"
+        ]
+      }
+    ],
+    "length": 145.349
+  },
+  "Gutenbergstraße": {
+    "wikidataId": "Q8958",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q205375",
+          "Q1229025",
+          "Q329439",
+          "Q81096",
+          "Q1639825",
+          "Q211423",
+          "Q1463475"
+        ]
+      }
+    ],
+    "length": 70.238
+  },
+  "Gabelsbergerstraße": {
+    "wikidataId": "Q62137",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q205375"
+        ]
+      }
+    ],
+    "length": 239.061
+  },
+  "Österreicher Straße": {
+    "wikidataId": "Q40",
+    "wikidata": [
+      {
+        "type": "Q3624078"
+      }
+    ],
+    "length": 195.748
+  },
+  "Kobellstraße": {
+    "wikidataId": "Q1167664",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1028181",
+          "Q11569986",
+          "Q1925963"
+        ]
+      }
+    ],
+    "length": 193.713
+  },
+  "Wolfsthalplatz": {
+    "wikidataId": "Q125857220",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q806798",
+          "Q1968442"
+        ]
+      }
+    ],
+    "length": 152.778
+  },
+  "Breslauer Platz": {
+    "wikidataId": "Q1799",
+    "wikidata": [
+      {
+        "type": "Q925381"
+      }
+    ],
+    "length": 154.312
+  },
+  "Bavariastraße": {
+    "wikidataId": "Q117323380",
+    "wikidata": [
+      {
+        "type": "Q207174"
+      }
+    ],
+    "length": 570.072
+  },
+  "Schillerstraße": {
+    "wikidataId": "Q22670",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q49757",
+          "Q4964182",
+          "Q201788",
+          "Q182436",
+          "Q551835",
+          "Q214917",
+          "Q6625963",
+          "Q1622272",
+          "Q333634",
+          "Q1930187",
+          "Q36180",
+          "Q39631",
+          "Q4002666",
+          "Q21550346"
+        ]
+      }
+    ],
+    "length": 2945.904
+  },
+  "Boppstraße": {
+    "wikidataId": "Q76934",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q14467526",
+          "Q1231865",
+          "Q1622272",
+          "Q88372589"
+        ]
+      }
+    ],
+    "length": 470.259
+  },
+  "Knodestraße": {
+    "wikidataId": "Q55677402",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q131524"
+        ]
+      }
+    ],
+    "length": 174.169
+  },
+  "Elsavastraße": {
+    "wikidataId": "Q872988",
+    "wikidata": [
+      {
+        "type": "Q4022"
+      }
+    ],
+    "length": 354.047
+  },
+  "Dahlemstraße": {
+    "wikidataId": "Q125894596",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q42855995"
+        ]
+      }
+    ],
+    "length": 393.482
+  },
+  "Harzstraße": {
+    "wikidataId": "Q4186",
+    "wikidata": [
+      {
+        "type": "Q46831"
+      }
+    ],
+    "length": 180.722
+  },
+  "Pompejanumstraße": {
+    "wikidataId": "Q2103446",
+    "wikidata": [
+      {
+        "type": "Q3950"
+      }
+    ],
+    "length": 207.438
+  },
+  "Paulusstraße": {
+    "wikidataId": "Q9200",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q36180",
+          "Q1234713",
+          "Q219477",
+          "Q4504549",
+          "Q133485",
+          "Q22813352",
+          "Q1294787"
+        ]
+      }
+    ],
+    "length": 540.619
+  },
+  "Theresienstraße": {
+    "wikidataId": "Q233198",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581072"
+        ],
+        "parties": [],
+        "jobs": []
+      }
+    ],
+    "length": 352.363
+  },
+  "Dammer Straße": {
+    "wikidataId": "Q1158603",
+    "wikidata": [
+      {
+        "type": "Q253019"
+      }
+    ],
+    "length": 313.296
+  },
+  "Reuterstraße": {
+    "wikidataId": "Q55896662;Q125860272",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q901402",
+          "Q37226"
+        ]
+      },
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q37226",
+          "Q1056391"
+        ]
+      }
+    ],
+    "length": 451.371
+  },
+  "Zobelstraße": {
+    "wikidataId": "Q125861745",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1299283",
+          "Q215536"
+        ]
+      }
+    ],
+    "length": 257.841
+  },
+  "Reitzstraße": {
+    "wikidataId": "Q125861713",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581072"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1968442"
+        ]
+      }
+    ],
+    "length": 110.539
+  },
+  "Schmittstraße": {
+    "wikidataId": "Q110224582",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q16947657"
+        ]
+      }
+    ],
+    "length": 250.888
+  },
+  "Michaelstraße": {
+    "wikidataId": "Q45581",
+    "wikidata": [
+      {
+        "type": "Q178342"
+      }
+    ],
+    "length": 390.446
+  },
+  "Ottostraße": {
+    "wikidataId": "Q77067",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q82955",
+          "Q116"
+        ]
+      }
+    ],
+    "length": 478.6
+  },
+  "Mirabellenweg": {
+    "wikidataId": "Q149741",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 97.87
+  },
+  "Trockenbrodtstraße": {
+    "wikidataId": "Q125859660;Q1556479",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q36834",
+          "Q177220"
+        ]
+      },
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1209498",
+          "Q36180"
+        ]
+      }
+    ],
+    "length": 136.508
+  },
+  "Kinzigstraße": {
+    "wikidataId": "Q645736",
+    "wikidata": [
+      {
+        "type": "Q4022"
+      }
+    ],
+    "length": 737.623
+  },
+  "Hafenlohrweg": {
+    "wikidataId": "Q830747",
+    "wikidata": [
+      {
+        "type": "Q4022"
+      }
+    ],
+    "length": 100.545
+  },
+  "Tauberstraße": {
+    "wikidataId": "Q177480",
+    "wikidata": [
+      {
+        "type": "Q4022"
+      }
+    ],
+    "length": 716.972
+  },
+  "Gersprenzweg": {
+    "wikidataId": "Q315393",
+    "wikidata": [
+      {
+        "type": "Q4022"
+      }
+    ],
+    "length": 137.803
+  },
+  "Mudweg": {
+    "wikidataId": "Q874367",
+    "wikidata": [
+      {
+        "type": "Q355304"
+      }
+    ],
+    "length": 122.745
+  },
+  "Haslochweg": {
+    "wikidataId": "Q825445",
+    "wikidata": [
+      {
+        "type": "Q4022"
+      }
+    ],
+    "length": 94.687
+  },
+  "Niddaweg": {
+    "wikidataId": "Q706133",
+    "wikidata": [
+      {
+        "type": "Q4022"
+      }
+    ],
+    "length": 209.887
+  },
+  "Sinnweg": {
+    "wikidataId": "Q127596",
+    "wikidata": [
+      {
+        "type": "Q4022"
+      }
+    ],
+    "length": 95.055
+  },
+  "Jossaweg": {
+    "wikidataId": "Q896275",
+    "wikidata": [
+      {
+        "type": "Q4022"
+      }
+    ],
+    "length": 118.195
+  },
+  "Orbweg": {
+    "wikidataId": "Q825901",
+    "wikidata": [
+      {
+        "type": "Q47521"
+      }
+    ],
+    "length": 114.124
+  },
+  "Birkenweg": {
+    "wikidataId": "Q25243",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 205.404
+  },
+  "Schwindstraße": {
+    "wikidataId": "Q2527317",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [
+          "Q49763"
+        ],
+        "jobs": [
+          "Q82955"
+        ]
+      }
+    ],
+    "length": 378.764
+  },
+  "Deschstraße": {
+    "wikidataId": "Q1693224",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q131524"
+        ]
+      }
+    ],
+    "length": 337.535
+  },
+  "Uhlandstraße": {
+    "wikidataId": "Q61058",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q14467526",
+          "Q49757",
+          "Q822146",
+          "Q82955",
+          "Q40348",
+          "Q13570226",
+          "Q1622272",
+          "Q1209498",
+          "Q36180"
+        ]
+      }
+    ],
+    "length": 305.683
+  },
+  "Scheffelstraße": {
+    "wikidataId": "Q9082",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q49757",
+          "Q36180",
+          "Q1209498",
+          "Q1028181"
+        ]
+      }
+    ],
+    "length": 268.068
+  },
+  "Albrechtstraße": {
+    "wikidataId": "Q60951",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q250867",
+          "Q611644"
+        ]
+      }
+    ],
+    "length": 167.786
+  },
+  "Finkenweg": {
+    "wikidataId": "Q160835",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 340.367
+  },
+  "Birnbaumweg": {
+    "wikidataId": "Q434",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 226.677
+  },
+  "Apfelbaumweg": {
+    "wikidataId": "Q18674606",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 162.246
+  },
+  "Kirschbaumweg": {
+    "wikidataId": "Q190545",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 157.789
+  },
+  "Holunderweg": {
+    "wikidataId": "Q131448",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 134.57
+  },
+  "Grünewaldstraße": {
+    "wikidataId": "Q154338",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1028181",
+          "Q81096",
+          "Q42973",
+          "Q15296811",
+          "Q289612",
+          "Q14623005"
+        ]
+      }
+    ],
+    "length": 410.995
+  },
+  "Antoniusstraße": {
+    "wikidataId": "Q167477",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q831474"
+        ]
+      }
+    ],
+    "length": 222.345
+  },
+  "Friedrich-Fröbel-Straße": {
+    "wikidataId": "Q76679",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1231865",
+          "Q15980158",
+          "Q37226",
+          "Q36180",
+          "Q937857"
+        ]
+      }
+    ],
+    "length": 157.991
+  },
+  "Hofer Straße": {
+    "wikidataId": "Q6938",
+    "wikidata": [
+      {
+        "type": "Q253030"
+      }
+    ],
+    "length": 56.721
+  },
+  "Heinrich-Böll-Straße": {
+    "wikidataId": "Q42747",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q822146",
+          "Q28389",
+          "Q333634",
+          "Q49757",
+          "Q6625963",
+          "Q36180"
+        ]
+      }
+    ],
+    "length": 105.968
+  },
+  "Blücherstraße": {
+    "wikidataId": "Q153522",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q189290",
+          "Q131512",
+          "Q11545923"
+        ]
+      }
+    ],
+    "length": 236.002
+  },
+  "Friedrich-Dessauer-Gymnasium": {
+    "wikidataId": "Q78116",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [
+          "Q157537"
+        ],
+        "jobs": [
+          "Q82955",
+          "Q169470",
+          "Q4964182",
+          "Q1622272"
+        ]
+      }
+    ],
+    "length": 857.678
+  },
+  "Lilienthalstraße": {
+    "wikidataId": "Q57162",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q10497074",
+          "Q2095549",
+          "Q205375"
+        ]
+      }
+    ],
+    "length": 360.359
+  },
+  "Kilianstraße": {
+    "wikidataId": "Q181738",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q42603",
+          "Q611644"
+        ]
+      }
+    ],
+    "length": 90.308
+  },
+  "Ginsterweg": {
+    "wikidataId": "Q156696",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 189.816
+  },
+  "Goldregenweg": {
+    "wikidataId": "Q147184",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 704.756
+  },
+  "Ernst-Streun-Platz": {
+    "wikidataId": "Q125945928",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [
+          "Q7320",
+          "Q49763"
+        ],
+        "jobs": [
+          "Q5669609",
+          "Q109925875"
+        ]
+      }
+    ],
+    "length": 273.081
+  },
+  "Wacholderweg": {
+    "wikidataId": "Q25662",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 670.812
+  },
+  "Bischof-Wurm-Straße": {
+    "wikidataId": "Q75173",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q82955",
+          "Q152002",
+          "Q1234713",
+          "Q1397808"
+        ]
+      }
+    ],
+    "length": 217.082
+  },
+  "Fliederweg": {
+    "wikidataId": "Q157449",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 171.562
+  },
+  "Jasminweg": {
+    "wikidataId": "Q515610",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 117.586
+  },
+  "Nußbaumweg": {
+    "wikidataId": "Q46871",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 141.797
+  },
+  "Hugo-Karpf-Straße": {
+    "wikidataId": "Q1333467",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [
+          "Q49763",
+          "Q302884"
+        ],
+        "jobs": [
+          "Q82955"
+        ]
+      }
+    ],
+    "length": 596.524
+  },
+  "Grünbrücke - Wilhelm-Hoegner-Anlage": {
+    "wikidataId": "Q213963",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [
+          "Q49768"
+        ],
+        "jobs": [
+          "Q16533",
+          "Q82955",
+          "Q36180",
+          "Q40348"
+        ]
+      }
+    ],
+    "length": 454.792
+  },
+  "Siegfried-Rischar-Straße": {
+    "wikidataId": "Q2283707",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1028181",
+          "Q11569986"
+        ]
+      }
+    ],
+    "length": 85.009
+  },
+  "Bismarckallee": {
+    "wikidataId": "Q8442",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [
+          "Q327591"
+        ],
+        "jobs": [
+          "Q82955",
+          "Q193391",
+          "Q185351",
+          "Q189290",
+          "Q36180",
+          "Q873492"
+        ]
+      }
+    ],
+    "length": 1013.989
+  },
+  "Kahlgrundstraße": {
+    "wikidataId": "Q1406806",
+    "wikidata": [
+      {
+        "type": "Q107425"
+      }
+    ],
+    "length": 346.043
+  },
+  "Lamprechtstraße": {
+    "wikidataId": "Q571780",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q3330547",
+          "Q49757",
+          "Q733786"
+        ]
+      }
+    ],
+    "length": 771.029
+  },
+  "Dalberg-Gymnasium": {
+    "wikidataId": "Q61353",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q250867",
+          "Q36180",
+          "Q611644"
+        ]
+      }
+    ],
+    "length": 545.44
+  },
+  "Erlanger Straße": {
+    "wikidataId": "Q3126",
+    "wikidata": [
+      {
+        "type": "Q1549591"
+      }
+    ],
+    "length": 241.145
+  },
+  "Kurt-Frenzel-Straße": {
+    "wikidataId": "Q125844147",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [
+          "Q49768"
+        ],
+        "jobs": []
+      }
+    ],
+    "length": 1028.647
+  },
+  "Willigisbrücke": {
+    "wikidataId": "Q77564",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q250867"
+        ]
+      }
+    ],
+    "length": 918.716
+  },
+  "Kolbornstraße": {
+    "wikidataId": "Q1297724",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q82955",
+          "Q250867",
+          "Q25393460",
+          "Q611644"
+        ]
+      }
+    ],
+    "length": 95.024
+  },
+  "Carl-Joseph-Will-Straße": {
+    "wikidataId": "Q125843480",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q371909"
+        ]
+      }
+    ],
+    "length": 359.057
+  },
+  "Marie-Curie-Straße": {
+    "wikidataId": "Q7186",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581072"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q169470",
+          "Q593644",
+          "Q1622272"
+        ]
+      }
+    ],
+    "length": 531.793
+  },
+  "Burchardtstraße": {
+    "wikidataId": "Q125862051",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": []
+      }
+    ],
+    "length": 223.663
+  },
+  "Lautenschlägerstraße": {
+    "wikidataId": "Q112440399",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [
+          "Q7320"
+        ],
+        "jobs": [
+          "Q39631",
+          "Q10732476"
+        ]
+      }
+    ],
+    "length": 183.627
+  },
+  "Brentano-Schule": {
+    "wikidataId": "Q57235",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q36180",
+          "Q49757",
+          "Q64733534",
+          "Q214917"
+        ]
+      }
+    ],
+    "length": 505.329
+  },
+  "Maria-Ward-Schule Aschaffenburg": {
+    "wikidataId": "Q291061",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581072"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1231865",
+          "Q191808"
+        ]
+      }
+    ],
+    "length": 372.803
+  },
+  "Mergenbaum-Platz": {
+    "wikidataId": "Q1037380",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": []
+      }
+    ],
+    "length": 134.303
+  },
+  "Erlenweg": {
+    "wikidataId": "Q25239",
+    "wikidata": [
+      {
+        "type": "Q16521"
+      }
+    ],
+    "length": 191.736
+  },
+  "Jacob-Leo-Straße": {
+    "wikidataId": "Q125843540",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q690928"
+        ]
+      }
+    ],
+    "length": 103.96
+  },
+  "Schopenhauerstraße": {
+    "wikidataId": "Q38193",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q1622272",
+          "Q4964182",
+          "Q36180",
+          "Q14915627",
+          "Q333634"
+        ]
+      }
+    ],
+    "length": 377.581
+  },
+  "Leibnizstraße": {
+    "wikidataId": "Q9047",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q170790",
+          "Q185351",
+          "Q169470",
+          "Q4964182",
+          "Q193391",
+          "Q201788",
+          "Q182436",
+          "Q14915627",
+          "Q333634",
+          "Q16031530",
+          "Q36180",
+          "Q47520669",
+          "Q49757",
+          "Q81096",
+          "Q350979",
+          "Q635734",
+          "Q864503",
+          "Q520549",
+          "Q16185210",
+          "Q23760244",
+          "Q14565331"
+        ]
+      }
+    ],
+    "length": 297.713
+  },
+  "Kantstraße": {
+    "wikidataId": "Q9312",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q4964182",
+          "Q4773904",
+          "Q169470",
+          "Q182436",
+          "Q36180",
+          "Q1231865",
+          "Q1622272",
+          "Q170790",
+          "Q23760244"
+        ]
+      }
+    ],
+    "length": 462.618
+  },
+  "Jaspersstraße": {
+    "wikidataId": "Q76509",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q4964182",
+          "Q211346",
+          "Q39631",
+          "Q1234713",
+          "Q1622272",
+          "Q36180",
+          "Q212980"
+        ]
+      }
+    ],
+    "length": 396.834
+  },
+  "Hegelstraße": {
+    "wikidataId": "Q9235",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q4964182",
+          "Q1622272",
+          "Q24265174",
+          "Q36180",
+          "Q23760244",
+          "Q14565331"
+        ]
+      }
+    ],
+    "length": 435.269
+  },
+  "Feuerbachstraße": {
+    "wikidataId": "Q76422",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [],
+        "jobs": [
+          "Q4773904",
+          "Q4964182",
+          "Q1622272",
+          "Q36180",
+          "Q1234713",
+          "Q21286455",
+          "Q852389"
+        ]
+      }
+    ],
+    "length": 403.551
+  },
+  "Theodor-Heuss-Straße": {
+    "wikidataId": "Q2594",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [
+          "Q13124",
+          "Q328195",
+          "Q662377",
+          "Q633731",
+          "Q339110"
+        ],
+        "jobs": [
+          "Q82955",
+          "Q1622272",
+          "Q1930187",
+          "Q36180"
+        ]
+      }
+    ],
+    "length": 272.787
+  },
+  "Alfons-Goppel-Platz": {
+    "wikidataId": "Q481434",
+    "wikidata": [
+      {
+        "type": "Q5",
+        "genders": [
+          "Q6581097"
+        ],
+        "parties": [
+          "Q49763",
+          "Q7320",
+          "Q302884"
+        ],
+        "jobs": [
+          "Q82955",
+          "Q185351"
+        ]
+      }
+    ],
+    "length": 146.898
+  }
+}
