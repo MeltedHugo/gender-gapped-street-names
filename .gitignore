@@ -1,4 +1,7 @@
+images/
 images/*
+csv/
+csv/*
 js/
 *.js
 *.html
