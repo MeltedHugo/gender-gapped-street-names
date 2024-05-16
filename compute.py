@@ -4,9 +4,12 @@ from wikibaseintegrator.wbi_config import config
 import plotly.express as px
 import plotly.graph_objects as go
 import os
+import csv
 
 if not os.path.exists("images"):
     os.mkdir("images")
+if not os.path.exists("csv"):
+    os.mkdir("csv")
 
 wbi = WikibaseIntegrator()
 config['USER_AGENT'] = 'Gender-Gapped Streetnames Analysis Tool'
@@ -17,6 +20,12 @@ with open('db.json') as f:
 
 def saveImage(fig,name):
   fig.write_image("images/"+name+".png")
+
+def saveCsv(data,name):
+  csv_file_path = "csv/"+name+".csv"
+  with open(csv_file_path,mode="w",newline='') as file:
+    writer = csv.writer(file)
+    writer.writerows(data)
 
 
 ## STATS BY GENDER ##
@@ -92,8 +101,16 @@ def sortByValue(dict):
     sorted_dict[key] = dict[key]
   return(sorted_dict)
 
+def dictSorted(d):
+  return(dict(reversed(sortByValue(d).items())))
+
 def wbname(id, lang):
-  return(wbi.item.get(id).labels.get(lang).value)
+  r = wbi.item.get(id).labels.get(lang)
+  print(r)
+  if r is not None:
+    return(r.value)
+  else:
+    return("Unbekannt")
 
 def shortname(id):
   print(id)
@@ -174,8 +191,6 @@ print("Total length of streets named after NSDAP members: "+str(int(naziStreetLe
 
 
 ## CHARTS GENERATION ##
-
-## eponym types by numbers ##
 
 def chartEponymTypesByNumbers():
   name = "eponymTypesByNumbers"
@@ -322,6 +337,157 @@ def chartPartiesByLength():
   saveImage(fig,name)
 
 
+
+def csvEponymTypesByNumbers():
+  name = "eponymTypesByNumbers"
+  print("Generating CSV: "+name)
+  data = [
+    ['Typ', 'Anzahl']
+  ]
+  t = dictSorted(typesCounts)
+  for item in t:
+    if not item == "unknown":
+      typename = wbname(item,"de")
+    else:
+      typename = "Unbekannt"
+    data.append([
+      typename, t[item]
+    ])
+  saveCsv(data,name)
+
+def csvEponymTypesByLength():
+  name = "eponymTypesByLength"
+  print("Generating CSV: "+name)
+  data = [
+    ['Typ', 'Länge']
+  ]
+  t = dictSorted(typesLengths)
+  for item in t:
+    if not item == "unknown":
+      typename = wbname(item,"de")
+    else:
+      typename = "Unbekannt"
+    data.append([
+      typename, t[item]
+    ])
+  saveCsv(data,name)
+
+def csvGenderByNumbers():
+  name="genderByNumbers"
+  print("Generating CSV: "+name)
+  data = [
+    ['Geschlecht', 'Anzahl']
+  ]
+  t = dictSorted(genderCounts)
+  for item in t:
+    if not item == "unknown":
+      itemname = wbname(item,"de")
+    else:
+      itemname = "Unbekannt"
+    data.append([
+      itemname, t[item]
+    ])
+  saveCsv(data,name)
+
+def csvGenderByLength():
+  name="genderByLength"
+  print("Generating CSV: "+name)
+  data = [
+    ['Geschlecht', 'Länge']
+  ]
+  t = dictSorted(streetLengthsByGender)
+  for item in t:
+    if not item == "unknown":
+      itemname = wbname(item,"de")
+    else:
+      itemname = "Unbekannt"
+    data.append([
+      itemname, t[item]
+    ])
+  saveCsv(data,name)
+
+def csvJobsByNumbers():
+  name="jobsByNumbers"
+  print("Generating CSV: "+name)
+  data = [
+    ['Tätigkeit', 'Anzahl']
+  ]
+  t = dictSorted(jobsCounts)
+  for item in t:
+    if not item == "unknown":
+      itemname = wbname(item,"de")
+    else:
+      itemname = "Unbekannt"
+    data.append([
+      itemname, t[item]
+    ])
+  saveCsv(data,name)
+
+def csvJobsByLength():
+  name="jobsByLength"
+  print("Generating CSV: "+name)
+  data = [
+    ['Tätigkeit', 'Länge']
+  ]
+  t = dictSorted(streetLengthsByJob)
+  for item in t:
+    if not item == "unknown":
+      itemname = wbname(item,"de")
+    else:
+      itemname = "Unbekannt"
+    data.append([
+      itemname, t[item]
+    ])
+  saveCsv(data,name)
+
+def csvPartiesByNumbers():
+  name="partiesByNumbers"
+  print("Generating CSV: "+name)
+  data = [
+    ['Partei', 'Anzahl']
+  ]
+  t = dictSorted(partyCounts)
+  for item in t:
+    if not item == "unknown":
+      itemname = wbname(item,"de")
+    else:
+      itemname = "Unbekannt"
+    data.append([
+      itemname, t[item]
+    ])
+  saveCsv(data,name)
+
+def csvPartiesByLength():
+  name="partiesByLength"
+  print("Generating CSV: "+name)
+  data = [
+    ['Partei', 'Anzahl']
+  ]
+  t = dictSorted(streetLengthsByParty)
+  for item in t:
+    if not item == "unknown":
+      itemname = wbname(item,"de")
+    else:
+      itemname = "Unbekannt"
+    data.append([
+      itemname, t[item]
+    ])
+  saveCsv(data,name)
+
+
+def generateAllCsvs():
+  csvEponymTypesByNumbers()
+  csvEponymTypesByLength()
+  csvGenderByNumbers()
+  csvGenderByLength()
+  csvJobsByNumbers()
+  csvJobsByLength()
+  csvPartiesByNumbers()
+  csvPartiesByLength()
+
+generateAllCsvs()
+
+
 def drawAllCharts():
   chartEponymTypesByNumbers()
   chartEponymTypesByLength()
@@ -332,4 +498,4 @@ def drawAllCharts():
   chartPartiesByNumbers()
   chartPartiesByLength()
 
-drawAllCharts()
+#drawAllCharts()
