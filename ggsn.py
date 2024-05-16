@@ -27,7 +27,7 @@ def getsnaks(list):
 
 def getways(city):
   # fetch all ways and nodes
-  result = api.query('area["boundary"~"administrative"]["name"~"'+city+'"];nwr["name:etymology:wikidata"](area);out;')
+  result = api.query('area["boundary"~"administrative"]["de:place"~"city"]["name"~"'+city+'"];nwr["name:etymology:wikidata"](area);out;')
 
   for way in result.ways:
     if way.tags.get("name") not in db:
