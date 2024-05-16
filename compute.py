@@ -366,7 +366,7 @@ def generateAllCsvs():
   generateCsvFromDict(partyCounts,"PartiesByNumber","Partei","Anzahl")
   generateCsvFromDict(streetLengthsByParty,"PartiesByLength","Partei","Länge")
 
-#generateAllCsvs()
+generateAllCsvs()
 
 
 def drawAllCharts():
