@@ -7,6 +7,7 @@ js/
 *.html
 *.css
 *.scss
+db.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
