@@ -118,6 +118,23 @@ def shortname(id):
   print(sn)
   return(sn)
 
+def generateCsvFromDict(d,name,key1,key2):
+  print("Generating CSV: "+name)
+  data = [
+    [key1,key2]
+  ]
+  t = dictSorted(d)
+  for item in t:
+    if not item == "unknown":
+      itemname = wbname(item,"de")
+    else:
+      itemname = "Unbekannt"
+    data.append([
+      #itemname, str(+t[item]).replace('.',',')
+      itemname,round(t[item])
+    ])
+  saveCsv(data,name)
+
 
 for party in partyCounts:
   totalPoliticalHumans = totalPoliticalHumans+partyCounts[party]
@@ -338,154 +355,18 @@ def chartPartiesByLength():
 
 
 
-def csvEponymTypesByNumbers():
-  name = "eponymTypesByNumbers"
-  print("Generating CSV: "+name)
-  data = [
-    ['Typ', 'Anzahl']
-  ]
-  t = dictSorted(typesCounts)
-  for item in t:
-    if not item == "unknown":
-      typename = wbname(item,"de")
-    else:
-      typename = "Unbekannt"
-    data.append([
-      typename, t[item]
-    ])
-  saveCsv(data,name)
-
-def csvEponymTypesByLength():
-  name = "eponymTypesByLength"
-  print("Generating CSV: "+name)
-  data = [
-    ['Typ', 'Länge']
-  ]
-  t = dictSorted(typesLengths)
-  for item in t:
-    if not item == "unknown":
-      typename = wbname(item,"de")
-    else:
-      typename = "Unbekannt"
-    data.append([
-      typename, t[item]
-    ])
-  saveCsv(data,name)
-
-def csvGenderByNumbers():
-  name="genderByNumbers"
-  print("Generating CSV: "+name)
-  data = [
-    ['Geschlecht', 'Anzahl']
-  ]
-  t = dictSorted(genderCounts)
-  for item in t:
-    if not item == "unknown":
-      itemname = wbname(item,"de")
-    else:
-      itemname = "Unbekannt"
-    data.append([
-      itemname, t[item]
-    ])
-  saveCsv(data,name)
-
-def csvGenderByLength():
-  name="genderByLength"
-  print("Generating CSV: "+name)
-  data = [
-    ['Geschlecht', 'Länge']
-  ]
-  t = dictSorted(streetLengthsByGender)
-  for item in t:
-    if not item == "unknown":
-      itemname = wbname(item,"de")
-    else:
-      itemname = "Unbekannt"
-    data.append([
-      itemname, t[item]
-    ])
-  saveCsv(data,name)
-
-def csvJobsByNumbers():
-  name="jobsByNumbers"
-  print("Generating CSV: "+name)
-  data = [
-    ['Tätigkeit', 'Anzahl']
-  ]
-  t = dictSorted(jobsCounts)
-  for item in t:
-    if not item == "unknown":
-      itemname = wbname(item,"de")
-    else:
-      itemname = "Unbekannt"
-    data.append([
-      itemname, t[item]
-    ])
-  saveCsv(data,name)
-
-def csvJobsByLength():
-  name="jobsByLength"
-  print("Generating CSV: "+name)
-  data = [
-    ['Tätigkeit', 'Länge']
-  ]
-  t = dictSorted(streetLengthsByJob)
-  for item in t:
-    if not item == "unknown":
-      itemname = wbname(item,"de")
-    else:
-      itemname = "Unbekannt"
-    data.append([
-      itemname, t[item]
-    ])
-  saveCsv(data,name)
-
-def csvPartiesByNumbers():
-  name="partiesByNumbers"
-  print("Generating CSV: "+name)
-  data = [
-    ['Partei', 'Anzahl']
-  ]
-  t = dictSorted(partyCounts)
-  for item in t:
-    if not item == "unknown":
-      itemname = wbname(item,"de")
-    else:
-      itemname = "Unbekannt"
-    data.append([
-      itemname, t[item]
-    ])
-  saveCsv(data,name)
-
-def csvPartiesByLength():
-  name="partiesByLength"
-  print("Generating CSV: "+name)
-  data = [
-    ['Partei', 'Anzahl']
-  ]
-  t = dictSorted(streetLengthsByParty)
-  for item in t:
-    if not item == "unknown":
-      itemname = wbname(item,"de")
-    else:
-      itemname = "Unbekannt"
-    data.append([
-      itemname, t[item]
-    ])
-  saveCsv(data,name)
-
 
 def generateAllCsvs():
-  csvEponymTypesByNumbers()
-  csvEponymTypesByLength()
-  csvGenderByNumbers()
-  csvGenderByLength()
-  csvJobsByNumbers()
-  csvJobsByLength()
-  csvPartiesByNumbers()
-  csvPartiesByLength()
+  generateCsvFromDict(typesCounts,"TypesByNumbers","Typ","Anzahl")
+  generateCsvFromDict(typesLengths,"TypesByLength","Typ","Länge")
+  generateCsvFromDict(genderCounts,"GendersByNumbers","Geschlecht","Anzahl")
+  generateCsvFromDict(streetLengthsByGender,"GendersByLength","Geschlecht","Länge")
+  generateCsvFromDict(jobsCounts,"JobsByNumbers","Tätigkeit","Anzahl")
+  generateCsvFromDict(streetLengthsByJob,"JobsByLength","Tätigkeit","Länge")
+  generateCsvFromDict(partyCounts,"PartiesByNumber","Partei","Anzahl")
+  generateCsvFromDict(streetLengthsByParty,"PartiesByLength","Partei","Länge")
 
-generateAllCsvs()
+#generateAllCsvs()
 
 
 def drawAllCharts():
