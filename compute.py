@@ -17,6 +17,9 @@ config['USER_AGENT'] = 'Gender-Gapped Streetnames Analysis Tool'
 with open('db.json') as f:
   db = json.load(f)
 
+with open('Q.json') as f:
+  Q = json.load(f)
+
 
 def saveImage(fig,name):
   fig.write_image("images/"+name+".png")
@@ -105,12 +108,19 @@ def dictSorted(d):
   return(dict(reversed(sortByValue(d).items())))
 
 def wbname(id, lang):
-  r = wbi.item.get(id).labels.get(lang)
-  print(r)
-  if r is not None:
-    return(r.value)
+  if id in Q:
+    out = Q[id]
   else:
-    return("Unbekannt")
+    r = wbi.item.get(id).labels.get(lang)
+    print(r)
+    if r is not None:
+      out = r.value
+    else:
+      out = "Unbekannt"
+  Q[id] = out
+  with open("Q.json","w",encoding='utf8') as f:
+    json.dump(Q, f, indent = 2, ensure_ascii=False)
+  return(out)
 
 def shortname(id):
   print(id)
