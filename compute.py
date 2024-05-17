@@ -5,6 +5,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import os
 import csv
+import statistics
 
 if not os.path.exists("images"):
     os.mkdir("images")
@@ -145,6 +146,34 @@ def generateCsvFromDict(d,name,key1,key2):
     ])
   saveCsv(data,name)
 
+def averageAgeCalc():
+  ages = []
+  for street in db:
+    for entity in db[street]["wikidata"]:
+      if "age" in entity:
+        if not entity["age"] == None and not entity["age"] < 0:
+          ages.append(entity["age"])
+  print(ages)
+  return(st(statistics.mean(ages)))
+
+def lowestAgeCalc():
+  ages = []
+  for street in db:
+    for entity in db[street]["wikidata"]:
+      if "age" in entity:
+        if not entity["age"] == None and not entity["age"] < 0:
+          ages.append(entity["age"])
+  return(min(ages))
+
+def highestAgeCalc():
+  ages = []
+  for street in db:
+    for entity in db[street]["wikidata"]:
+      if "age" in entity:
+        if not entity["age"] == None and not entity["age"] < 0:
+          ages.append(entity["age"])
+  return(max(ages))
+
 
 for party in partyCounts:
   totalPoliticalHumans = totalPoliticalHumans+partyCounts[party]
@@ -198,6 +227,7 @@ femaleStreetLengthPercentage = st((streetLengthsByGender["Q6581072"]/humanStreet
 diverseGendersPercentage = st((diverseGendersAmount/totalHuman)*100)
 popularJob = wbname(max(jobsCounts,key=jobsCounts.get),"en")
 popularJobPercentage = st((jobsCounts[max(jobsCounts,key=jobsCounts.get)]/totalHuman)*100)
+averageAge = averageAgeCalc()
 
 #print(sortByValue(partyCounts))
 #print(sortByValue(jobsCounts))
@@ -214,6 +244,8 @@ print("Most common job: "+popularJob+" ("+popularJobPercentage+" % of all human 
 print("Percentage of politically involved human eponyms: "+politicalPercentage+" %")
 print("Most common party: "+popularParty+" ("+popularPartyPercentage+" % of all politically involved human eponyms)")
 print("Total length of streets named after NSDAP members: "+str(int(naziStreetLength))+" meters")
+print("Average age of people: "+averageAge)
+print("Oldest human eponym was "+str(highestAgeCalc())+" and youngest was "+str(lowestAgeCalc())+".")
 
 
 
