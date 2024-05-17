@@ -4,6 +4,8 @@ import os.path
 import requests
 from wikibaseintegrator import WikibaseIntegrator
 from wikibaseintegrator.wbi_config import config
+import re
+from datetime import date
 
 config['USER_AGENT'] = 'Gender-Gapped Streetnames Analysis Tool'
 wbi = WikibaseIntegrator()
@@ -62,6 +64,38 @@ def getLength(street):
 
   return(length)
 
+def parseDate(entity,type):
+  dateRegex = re.compile(r"(?P<year>[+|-]\d*)[-](?P<month>\d{2})[-](?P<day>\d{2})[T](?P<hour>\d{2})[:](?P<minute>\d{2})[:](?P<second>\d{2})[Z]")
+  if type == "birthday":
+    if len(entity.claims.get('P569'))>0:
+      bdData = entity.claims.get('P569')[0].mainsnak.datavalue
+    else:
+      return(None)
+  if type == "deathday":
+    if len(entity.claims.get('P570'))>0:
+      bdData = entity.claims.get('P570')[0].mainsnak.datavalue
+    else:
+      return(None)
+  print(bdData)
+  d = bdData["value"]["time"]
+  birthday = {
+    "year": int(dateRegex.match(d).group("year")),
+    "month": int(dateRegex.match(d).group("month")),
+    "day": int(dateRegex.match(d).group("day"))
+  }
+  return(birthday)
+
+def age(dbEntity):
+  birth = dbEntity["birthday"]
+  death = dbEntity["deathday"]
+  if birth == None or death == None:
+    return None
+  else:
+    return death["year"]-birth["year"]-((death["month"],death["day"])<(birth["month"],birth["day"]))
+
+def getName(entity):
+  name = str(entity.labels.get("de"))
+  return name
 
 
 print(getways('Aschaffenburg'))
@@ -72,7 +106,6 @@ for street in db:
   for i,id in enumerate(db[street]['wikidataId'].split(";")):
     entity = wbi.item.get(id)
     db[street]["wikidata"].append({})
-    db[street]["wikidata"][i]["id"] = id
     #print(entity.labels.get('de').value)
     if entity.claims.get('P31'):
       db[street]["wikidata"][i] = {
@@ -82,14 +115,21 @@ for street in db:
       db[street]["wikidata"][i] = {
         "type": "unknown"
       }
+    db[street]["wikidata"][i]["id"] = id
+    db[street]["wikidata"][i]["name"] = getName(entity)
     if db[street]["wikidata"][i]["type"] == "Q5":
       #print(entity.claims.get('P21'))
       db[street]["wikidata"][i]["genders"] = getsnaks(entity.claims.get('P21'))
       db[street]["wikidata"][i]["parties"] = getsnaks(entity.claims.get('P102'))
       db[street]["wikidata"][i]["jobs"] = getsnaks(entity.claims.get('P106'))
+      db[street]["wikidata"][i]["birthday"] = parseDate(entity,"birthday")
+      db[street]["wikidata"][i]["deathday"] = parseDate(entity,"deathday")
+      db[street]["wikidata"][i]["age"] = age(db[street]["wikidata"][i])
+      
     print(db[street])
   with open("db.json","w",encoding='utf8') as fp:
     del db[street]["ids"]
+    del db[street]["wikidataId"]
     json.dump(db, fp, indent = 2, ensure_ascii=False)
 
 #entity = wbi.item.get('Q582')
