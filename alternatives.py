@@ -19,19 +19,19 @@ config['USER_AGENT'] = 'Gender-Gapped Streetnames Analysis Tool'
 #writer Q36180
 
 
-def getEntities(gender,job):
+def getEntities(job):
   query = """
     SELECT ?p ?pLabel
     WHERE
     {
       ?p wdt:P31 wd:Q5.
       ?p wdt:P21* ?gender.
-      ?p wdt:P106 wd:Q36180.
+      ?p wdt:P106 wd:%s.
       ?p wdt:P27 wd:Q183.
       FILTER( ?gender IN(wd:Q48270, wd:Q1052281))
-      SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE]". }
+      SERVICE wikibase:label { bd:serviceParam wikibase:language "de". }
     }
-  """ % (gender,job)
+  """ % (job)
 
   res = {}
   for entity in wbi_helpers.execute_sparql_query(query)["results"]["bindings"]:
@@ -39,4 +39,4 @@ def getEntities(gender,job):
   print(res)
   return()
 
-print(getEntities("Q48270","Q36180"))
+print(getEntities("Q36180"))
