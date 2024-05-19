@@ -77,13 +77,16 @@ def parseDate(entity,type):
     else:
       return(None)
   print(bdData)
-  d = bdData["value"]["time"]
-  birthday = {
-    "year": int(dateRegex.match(d).group("year")),
-    "month": int(dateRegex.match(d).group("month")),
-    "day": int(dateRegex.match(d).group("day"))
-  }
-  return(birthday)
+  if bdData and not bdData == None:
+    d = bdData["value"]["time"]
+    birthday = {
+      "year": int(dateRegex.match(d).group("year")),
+      "month": int(dateRegex.match(d).group("month")),
+      "day": int(dateRegex.match(d).group("day"))
+    }
+    return(birthday)
+  else:
+    return(None)
 
 def age(dbEntity):
   birth = dbEntity["birthday"]
