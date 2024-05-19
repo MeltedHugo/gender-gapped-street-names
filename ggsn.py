@@ -49,7 +49,7 @@ def getLength(street):
   ids = db[street]["ids"]
   q = ",".join(str(x) for x in ids)
   fullq = "[out:json];way(id:"+q+");make stats length=sum(length());out;"
-  print(fullq)
+  #print(fullq)
 
   url = "https://www.overpass-api.de/api/interpreter?data="+fullq
   r = requests.get(url)
@@ -76,7 +76,7 @@ def parseDate(entity,type):
       bdData = entity.claims.get('P570')[0].mainsnak.datavalue
     else:
       return(None)
-  print(bdData)
+  #print(bdData)
   if bdData and not bdData == None:
     d = bdData["value"]["time"]
     birthday = {
@@ -129,7 +129,7 @@ for street in db:
       db[street]["wikidata"][i]["deathday"] = parseDate(entity,"deathday")
       db[street]["wikidata"][i]["age"] = age(db[street]["wikidata"][i])
       
-    print(db[street])
+    print(street,db[street])
   with open("db.json","w",encoding='utf8') as fp:
     del db[street]["ids"]
     del db[street]["wikidataId"]
