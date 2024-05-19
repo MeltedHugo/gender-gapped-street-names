@@ -5,6 +5,8 @@ import plotly.express as px
 import plotly.graph_objects as go
 import os
 import csv
+import itertools
+import sys
 import statistics
 
 if not os.path.exists("images"):
@@ -49,6 +51,9 @@ jobsCounts = {}
 streetLengthsByJob = {}
 typesCounts = {}
 typesLengths = {}
+jobsOnlyMale = {}
+jobsOnlyFemale = {}
+availableGenders = []
 
 for street in db:
   totalStreets = totalStreets+1
@@ -90,9 +95,20 @@ for street in db:
           jobsCounts[job] = jobsCounts[job]+1
         else:
           jobsCounts[job] = 1
+    
+    if "jobs" in entity and "genders" in entity:
+      for job in entity["jobs"]:
+        if "Q6581097" in entity["genders"]:
+          if job in jobsOnlyMale:
+            jobsOnlyMale[job] = jobsOnlyMale[job]+1
+          else:
+            jobsOnlyMale[job] = 1
+        if "Q6581072" in entity["genders"]:
+          if job in jobsOnlyFemale:
+            jobsOnlyFemale[job] = jobsOnlyFemale[job]+1
+          else:
+            jobsOnlyFemale[job] = 1
 
-#for gender in counts:
-  
 #print(counts)
 
 
@@ -145,6 +161,7 @@ def generateCsvFromDict(d,name,key1,key2):
       itemname,round(t[item])
     ])
   saveCsv(data,name)
+
 
 def averageAgeCalc():
   ages = []
@@ -213,6 +230,10 @@ for street in db:
             streetLengthsByParty[party] = streetLengthsByParty[party]+db[street]["length"]
           else:
             streetLengthsByParty[party] = db[street]["length"]
+
+for gender in genderCounts:
+  availableGenders.append(gender)
+print(availableGenders)
 
 #print(streetLengthsByGender)
 
@@ -407,6 +428,9 @@ def generateAllCsvs():
   generateCsvFromDict(streetLengthsByJob,"JobsByLength","Tätigkeit","Länge")
   generateCsvFromDict(partyCounts,"PartiesByNumber","Partei","Anzahl")
   generateCsvFromDict(streetLengthsByParty,"PartiesByLength","Partei","Länge")
+  #generateTripleCsvFromDict(jobsGenderCounts,"GendersByJobs","Tätigkeit","Geschlecht","Anzahl")
+  generateCsvFromDict(jobsOnlyMale,"JobsOnlyMale","Tätigkeit","Anzahl")
+  generateCsvFromDict(jobsOnlyFemale,"JobsOnlyFemale","Tätigkeit","Anzahl")
 
 generateAllCsvs()
 
