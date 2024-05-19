@@ -23,6 +23,9 @@ with open('db.json') as f:
 with open('Q.json') as f:
   Q = json.load(f)
 
+with open('peopleQ.json') as f:
+  peopleQ = json.load(f)
+
 
 def saveImage(fig,name):
   fig.write_image("images/"+name+".png")
@@ -191,6 +194,56 @@ def highestAgeCalc():
           ages.append(entity["age"])
   return(max(ages))
 
+def makePeopleLists():
+  allPeople = []
+  for street in db:
+    for entity in db[street]["wikidata"]:
+      if not entity["name"] in allPeople and entity["type"]=="Q5":
+        allPeople.append(entity["id"])
+  #print(allPeople)
+
+  peoplelist = {
+    "jobs": {},
+    "parties": {},
+  }
+  peoplelistClear = {
+    "jobs": {},
+    "parties": {},
+  }
+
+  for person in allPeople:
+    for street in db:
+      for entity in db[street]["wikidata"]:
+        if entity["id"] == person:
+          if "jobs" in entity:
+            for job in entity["jobs"]:
+              if not job in peoplelist["jobs"]:
+                peoplelist["jobs"][job] = [person]
+              else:
+                if not person in peoplelist["jobs"][job]:
+                  peoplelist["jobs"][job].append(person)
+          if "parties" in entity:
+            for party in entity["parties"]:
+              if not party in peoplelist["parties"]:
+                peoplelist["parties"][party] = [person]
+              else:
+                if not person in peoplelist["parties"][party]:
+                  peoplelist["parties"][party].append(person)
+
+  for i in peoplelist:
+    for j in peoplelist[i]:
+      print(j,wbname(j,"de"))
+      peoplelistClear[i][wbname(j,"de")] = peoplelist[i][j]
+  
+  for i in peoplelistClear:
+    for j in peoplelistClear[i]:
+      peoplelistClear[i][j] = [item.replace(item, wbname(item,"de")) for item in peoplelistClear[i][j]]
+
+  print(peoplelistClear)
+
+  with open("people.json","w",encoding='utf8') as fp:
+    json.dump(peoplelistClear, fp, indent = 2, ensure_ascii=False)
+
 
 for party in partyCounts:
   totalPoliticalHumans = totalPoliticalHumans+partyCounts[party]
@@ -202,7 +255,7 @@ for street in db:
     if "parties" in entity:
       for party in entity["parties"]:
         if party == "Q7320":
-          naziList.append(street)
+          naziList.append(entity["name"])
           naziStreetLength = naziStreetLength + db[street]["length"]
 
 print(naziList)
@@ -268,7 +321,7 @@ print("Total length of streets named after NSDAP members: "+str(int(naziStreetLe
 print("Average age of people: "+averageAge)
 print("Oldest human eponym was "+str(highestAgeCalc())+" and youngest was "+str(lowestAgeCalc())+".")
 
-
+makePeopleLists()
 
 ## CHARTS GENERATION ##
 
