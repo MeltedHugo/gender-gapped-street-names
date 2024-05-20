@@ -629,7 +629,9 @@
     "Soldat*in": [
       "Karl Philipp zu Schwarzenberg",
       "Martin von Tours",
-      "Alois Grimm"
+      "Alois Grimm",
+      "Ludwig Roth",
+      "Albrecht Velte"
     ],
     "Illustrator*in": [
       "Ernst Ludwig Kirchner",
@@ -713,7 +715,8 @@
     "Pfarrer*in": [
       "Philipp Michael Giebfried",
       "Dietrich Bonhoeffer",
-      "Christian Stadelmann"
+      "Christian Stadelmann",
+      "Karl Glaser"
     ],
     "Forstwissenschaftler*in": [
       "Daniel Ernst Müller"
@@ -978,6 +981,16 @@
     "Münzmeister*in": [
       "Johannes Gutenberg"
     ],
+    "Arbeiter*in": [
+      "Ludwig Roth"
+    ],
+    "Maurer*in": [
+      "Ludwig Roth"
+    ],
+    "Gemeinderät*in": [
+      "Ludwig Roth",
+      "Albrecht Velte"
+    ],
     "Bankier*in": [
       "Otto Wolfsthal"
     ],
@@ -1061,6 +1074,12 @@
     "Lebensmittelhändler*in": [
       "Ernst Streun"
     ],
+    "Maschinenschlosser*in": [
+      "Albrecht Velte"
+    ],
+    "Bürgermeister*in": [
+      "Albrecht Velte"
+    ],
     "Einjährig-Freiwillige*r": [
       "Otto von Bismarck"
     ],
@@ -1117,6 +1136,7 @@
       "Marielies Schleicher",
       "Vinzenz Schwind",
       "Ernst Streun",
+      "Albrecht Velte",
       "Hugo Karpf",
       "Alfons Goppel"
     ],
@@ -1149,7 +1169,9 @@
       "Paul Rudolf Scheppler",
       "Hans Hönlein",
       "Christian Schad",
+      "Ludwig Roth",
       "Ernst Streun",
+      "Albrecht Velte",
       "Aloys Lautenschläger",
       "Alfons Goppel"
     ],
@@ -1177,6 +1199,9 @@
     ],
     "Unbekannt": [
       "Carl Schurz"
+    ],
+    "Sudetendeutsche Partei": [
+      "Karl Glaser"
     ],
     "Deutsche Volkspartei": [
       "Max Planck"
