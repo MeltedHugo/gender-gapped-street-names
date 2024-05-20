@@ -23,8 +23,8 @@ with open('db.json') as f:
 with open('Q.json') as f:
   Q = json.load(f)
 
-with open('peopleQ.json') as f:
-  peopleQ = json.load(f)
+#with open('peopleQ.json') as f:
+#  peopleQ = json.load(f)
 
 
 def saveImage(fig,name):
@@ -143,9 +143,9 @@ def wbname(id, lang):
   return(out)
 
 def shortname(id):
-  print(id)
+  #print(id)
   sn = wbi.item.get(id).claims.get('P1813')[0].mainsnak.datavalue
-  print(sn)
+  #print(sn)
   return(sn)
 
 def generateCsvFromDict(d,name,key1,key2):
@@ -173,7 +173,7 @@ def averageAgeCalc():
       if "age" in entity:
         if not entity["age"] == None and not entity["age"] < 0:
           ages.append(entity["age"])
-  print(ages)
+  #print(ages)
   return(st(statistics.mean(ages)))
 
 def lowestAgeCalc():
@@ -232,14 +232,14 @@ def makePeopleLists():
 
   for i in peoplelist:
     for j in peoplelist[i]:
-      print(j,wbname(j,"de"))
+      #print(j,wbname(j,"de"))
       peoplelistClear[i][wbname(j,"de")] = peoplelist[i][j]
   
   for i in peoplelistClear:
     for j in peoplelistClear[i]:
       peoplelistClear[i][j] = [item.replace(item, wbname(item,"de")) for item in peoplelistClear[i][j]]
 
-  print(peoplelistClear)
+  #print(peoplelistClear)
 
   with open("people.json","w",encoding='utf8') as fp:
     json.dump(peoplelistClear, fp, indent = 2, ensure_ascii=False)
@@ -258,7 +258,7 @@ for street in db:
           naziList.append(entity["name"])
           naziStreetLength = naziStreetLength + db[street]["length"]
 
-print(naziList)
+#print(naziList)
 
 for street in db:
   totalStreetLength = totalStreetLength + db[street]["length"]
@@ -283,6 +283,26 @@ for street in db:
             streetLengthsByParty[party] = streetLengthsByParty[party]+db[street]["length"]
           else:
             streetLengthsByParty[party] = db[street]["length"]
+
+def generateReadableDb():
+  d = db.copy()
+  for street in d:
+    for entityIndex,entity in enumerate(d[street]["wikidata"]):
+      #print(entityIndex,entity)
+      if not d[street]["wikidata"][entityIndex]["type"] == "unknown":
+        d[street]["wikidata"][entityIndex]["type"] = wbname(d[street]["wikidata"][entityIndex]["type"],"de")
+      if "genders" in d[street]["wikidata"][entityIndex]:
+        for genderIndex,gender in enumerate(d[street]["wikidata"][entityIndex]["genders"]):
+          d[street]["wikidata"][entityIndex]["genders"][genderIndex] = wbname(d[street]["wikidata"][entityIndex]["genders"][genderIndex],"de")
+      if "parties" in d[street]["wikidata"][entityIndex]:
+        for partyIndex,party in enumerate(d[street]["wikidata"][entityIndex]["parties"]):
+          d[street]["wikidata"][entityIndex]["parties"][partyIndex] = wbname(d[street]["wikidata"][entityIndex]["parties"][partyIndex],"de")
+      if "jobs" in d[street]["wikidata"][entityIndex]:
+        for jobIndex,party in enumerate(d[street]["wikidata"][entityIndex]["jobs"]):
+          d[street]["wikidata"][entityIndex]["jobs"][jobIndex] = wbname(d[street]["wikidata"][entityIndex]["jobs"][jobIndex],"de")
+  #print(d)
+  with open("readable_db.json","w",encoding='utf8') as fp:
+    json.dump(d, fp, indent = 2, ensure_ascii=False)
 
 for gender in genderCounts:
   availableGenders.append(gender)
@@ -320,6 +340,7 @@ print("Most common party: "+popularParty+" ("+popularPartyPercentage+" % of all 
 print("Total length of streets named after NSDAP members: "+str(int(naziStreetLength))+" meters")
 print("Average age of people: "+averageAge)
 print("Oldest human eponym was "+str(highestAgeCalc())+" and youngest was "+str(lowestAgeCalc())+".")
+print("Total streets: "+str(len(db)))
 
 makePeopleLists()
 
@@ -479,13 +500,15 @@ def generateAllCsvs():
   generateCsvFromDict(streetLengthsByGender,"GendersByLength","Geschlecht","Länge")
   generateCsvFromDict(jobsCounts,"JobsByNumbers","Tätigkeit","Anzahl")
   generateCsvFromDict(streetLengthsByJob,"JobsByLength","Tätigkeit","Länge")
-  generateCsvFromDict(partyCounts,"PartiesByNumber","Partei","Anzahl")
+  generateCsvFromDict(partyCounts,"PartiesByNumbers","Partei","Anzahl")
   generateCsvFromDict(streetLengthsByParty,"PartiesByLength","Partei","Länge")
   #generateTripleCsvFromDict(jobsGenderCounts,"GendersByJobs","Tätigkeit","Geschlecht","Anzahl")
   generateCsvFromDict(jobsOnlyMale,"JobsOnlyMale","Tätigkeit","Anzahl")
   generateCsvFromDict(jobsOnlyFemale,"JobsOnlyFemale","Tätigkeit","Anzahl")
 
 generateAllCsvs()
+
+generateReadableDb()
 
 
 def drawAllCharts():
