@@ -1,6 +1,8 @@
 # Gender Gapped Street Names
 This is a repository for the tools I'm using for my paper on street names.
 
+Check the config section in main.py to define the city you want to analyze, as well as the language.
+
 To run the full script, run:  
 `python main.py`
 
@@ -16,5 +18,3 @@ To fill db and generate reports only with existing db.json, run:
 * **db.json**: all streets with associated eponyms, with wikidata IDs.
 * **readable_db.json**: same as db.json, but with human-readable values
 * **people.json**: a reverse dict of jobs and parties, with people as values (because people keep asking me about this)
-
-* **ggsn.py** and **compute.py**: old scripts. They do the same as main.py, but aren't documented. Will delete these from the repo soon.
