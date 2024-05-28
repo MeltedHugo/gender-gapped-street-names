@@ -1,3 +1,9 @@
+#####
+# this is at some point going to be a script that suggests street names
+# it is not finished yet, please disregard
+#####
+
+
 import json
 from wikibaseintegrator import WikibaseIntegrator,wbi_helpers
 from wikibaseintegrator.wbi_config import config
