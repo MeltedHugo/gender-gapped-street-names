@@ -10,6 +10,7 @@ js/
 db.json
 readable_db.json
 test.py
+people.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
