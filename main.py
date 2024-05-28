@@ -311,6 +311,7 @@ def makePeopleLists():
 
 # generate human readable db (readable_db.json)
 def generateReadableDb():
+  print("Generating readable_db.json")
   d = db.copy()
   for street in d:
     for entityIndex,entity in enumerate(d[street]["wikidata"]):
@@ -364,7 +365,7 @@ if FLAGS.op == "all" or FLAGS.op == "osm":
         db[street]["wikidata"][i]["birthday"] = parseDate(entity,"birthday")
         db[street]["wikidata"][i]["deathday"] = parseDate(entity,"deathday")
         db[street]["wikidata"][i]["age"] = age(db[street]["wikidata"][i])
-    with open("db2.json","w",encoding='utf8') as fp:
+    with open("db.json","w",encoding='utf8') as fp:
       del db[street]["ids"]
       del db[street]["wikidataId"]
       json.dump(db, fp, indent = 2, ensure_ascii=False)
@@ -509,3 +510,4 @@ if FLAGS.op == 'all' or FLAGS.op == 'stat':
   generateCsvFromDict(streetLengthsByParty,"PartiesByLength",strParty,strLength)
   generateCsvFromDict(jobsOnlyMale,"JobsOnlyMale",strJob,strCount)
   generateCsvFromDict(jobsOnlyFemale,"JobsOnlyFemale",strJob,strCount)
+  generateReadableDb()
