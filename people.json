@@ -515,6 +515,8 @@
     "bildende*r Künstler*in": [
       "Johann Wolfgang von Goethe",
       "Ernst Ludwig Kirchner",
+      "Hans Holbein der Jüngere",
+      "Hans Memling",
       "Albrecht Dürer"
     ],
     "Kunsthistoriker*in": [
@@ -598,7 +600,8 @@
       "Theophil Wurm"
     ],
     "Prediger*in": [
-      "Martin Luther"
+      "Martin Luther",
+      "Antonius von Padua"
     ],
     "Schreiber*in": [
       "Martin Luther"
@@ -1061,6 +1064,9 @@
     ],
     "Generalunternehmer*in": [
       "Matthias Grünewald"
+    ],
+    "Ordenspriester*in": [
+      "Antonius von Padua"
     ],
     "Fußballspieler*in": [
       "Friedrich Fröbel"
