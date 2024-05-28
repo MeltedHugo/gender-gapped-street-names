@@ -228,7 +228,7 @@ def generateCsvFromDict(d,xname,key1,key2):
     else:
       itemname = strUnknown
     data.append([
-      itemname,roundNumber(t[item])
+      itemname,int(t[item])
     ])
   saveCsv(data,xname)
 
