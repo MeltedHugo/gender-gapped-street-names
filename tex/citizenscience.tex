@@ -10,16 +10,14 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage{listings}
 \usepackage{color}
-
-%\usepackage{ngerman}
 \usepackage{csvsimple}
 \usepackage{booktabs}
 \usepackage{longtable}
 \usepackage{fancyvrb}
 \usepackage{makeidx}
 \usepackage[ngerman]{babel}
-%\usepackage[utf8]{inputenc}
 \usepackage{tocbasic}
+\usepackage[export]{adjustbox}
 
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
@@ -68,21 +66,6 @@
     {~}{{\textasciitilde}}1
 }
 
-%\makeatletter
-%\renewcommand\tableofcontents{%
-%  \null\hfill\textbf{\Large\contentsname}\hfill\null\par
-%  \@mkboth{\MakeUppercase\contentsname}{\MakeUppercase\contentsname}%
-%  \@starttoc{toc}%
-%}
-%\makeatother
-%\makeatletter
-%\renewcommand\listoffigures{%
-%  \null\hfill\textbf{\Large\listfigurename}\hfill\null\par
-%  \@mkboth{\MakeUppercase\listfigurename}{\MakeUppercase\listfigurename}%
-%  \@starttoc{lof}%
-%}
-%\makeatother
-
 \begin{document}
 \renewcommand*{\tocname}{Inhaltsverzeichnis}
 \renewcommand*{\lofname}{Abbildungsverzeichnis}
@@ -91,7 +74,6 @@
 Straßennamen in Aschaffenburg: Eine Analyse der Namensgebung\\
 mit Hilfe von OpenStreetMap und Wikidata}
 \author{Fabi Hahner}
-%\affiliation{Somewhere}
 
 
 \begin{abstract}
@@ -270,7 +252,7 @@ Zum Einen erspart dies redundaten Netzwerkverkehr zur Wikidata-API, zum Anderen 
 lokal modifizieren. Dies ist relevant, da Wikidata standardmäßig keine diskriminierungsfreien Berufsbezeichnungen bereitstellt.
 
 \section{Datenauswertung}
-In einem zweiten Programm wird die zuvor erstellte Datei als Grundlage für die Erstellung
+In einem zweiten Schritt wird die zuvor erstellte Datei als Grundlage für die Erstellung
 der abschließenden Statistiken verwendet. Auch dieses Programm ist in Python
 geschrieben.
 Es werden dabei unter Anderem folgende Zahlen erhoben:
@@ -401,70 +383,70 @@ ausüben.
 
 Der gesamte Quellcode des Scripts ist öffentlich\footnote{\url{https://github.com/MeltedHugo/gender-gapped-street-names/}}, die Analyse kann reproduziert werden.
 
-\newpage
+
 \section{Ergebnisse}
 
 \begin{figure}
   \centering
-  \includegraphics[width=1\linewidth]{1.png}
+  \includegraphics[width=1\linewidth,frame]{1.png}
   \caption{Arten von Eponymen nach Anzahl}
   \label{fig:TypesByCount}
 \end{figure}
 \begin{figure}
   \centering
-  \includegraphics[width=1\linewidth]{2.png}
+  \includegraphics[width=1\linewidth,frame]{2.png}
   \caption{Arten von Eponymen nach Straßenlänge}
   \label{fig:TypesByLength}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics[width=1\linewidth]{3.png}
+\includegraphics[width=1\linewidth,frame]{3.png}
 \caption{Geschlechter nach Anzahl}
 \label{fig:GendersByCount}
 \end{figure}
 \begin{figure}
 \centering
-\includegraphics[width=1\linewidth]{4.png}
+\includegraphics[width=1\linewidth,frame]{4.png}
 \caption{Geschlechter nach Straßenlänge}
 \label{fig:GendersByLength}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics[width=1\linewidth]{5.png}
+\includegraphics[width=1\linewidth,frame]{5.png}
 \caption{Tätigkeiten nach Anzahl}
 \label{fig:JobsByCount}
 \end{figure}
 \begin{figure}
 \centering
-\includegraphics[width=1\linewidth]{6.png}
+\includegraphics[width=1\linewidth,frame]{6.png}
 \caption{Tätigkeiten nach Straßenlänge}
 \label{fig:JobsByLength}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics[width=1\linewidth]{7.png}
+\includegraphics[width=1\linewidth,frame]{7.png}
 \caption{Tätigkeiten (nur cis-männliche)}
 \label{fig:JobsOnlyMale}
 \end{figure}
 \begin{figure}
 \centering
-\includegraphics[width=1\linewidth]{8.png}
+\includegraphics[width=1\linewidth,frame]{8.png}
 \caption{Tätigkeiten n(nur cis-weibliche)}
 \label{fig:JobsOnlyFemale}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics[width=1\linewidth]{9.png}
+\includegraphics[width=1\linewidth,frame]{9.png}
 \caption{Parteien nach Anzahl}
 \label{fig:PartiesByCount}
 \end{figure}
 \begin{figure}
 \centering
-\includegraphics[width=1\linewidth]{10.png}
+\includegraphics[width=1\linewidth,frame]{10.png}
 \caption{Parteien nach Straßenlänge}
 \label{fig:PartiesByLength}
 \end{figure}
@@ -549,16 +531,10 @@ für die Stadt Aschaffenburg.
 Straßennamen haben einen repräsentativen Charakter. Wenn die Stadt Aschaffenburg eine
 weltoffene, moderne Stadt sein möchte, sollte sie das auch zeigen. Der Weg zu vollständiger
 und tatsächlicher Gleichberechtigung ist lang und schwer, aber es gibt genügend
-Möglichkeiten, wo damit angefangen werden kann
+Möglichkeiten, wo damit angefangen werden kann.
 
-%\section*{Danksagungen}
-%\thispagestyle{empty}
-%\begin{itemize}
-%    \item Schaffenburg e.V.
-%    \item Stern e.V.
-%\end{itemize}
-%\clearpage
 
+\appendix
 \section{Rohdaten}
 \subsection{Eponyme nach Anzahl}
 \csvautobooklongtable{../csv/TypesByNumbers.csv}
@@ -580,8 +556,8 @@ Möglichkeiten, wo damit angefangen werden kann
 \csvautobooklongtable{../csv/PartiesByNumbers.csv}
 \subsection{Parteien nach Straßenlänge}
 \csvautobooklongtable{../csv/PartiesByLength.csv}
-\subsection{Personen, die einer Tätigkeit bzw. Partei zugehörig sind}
-\VerbatimInput{../people.json}
+%\subsection{Personen, die einer Tätigkeit bzw. Partei zugehörig sind}
+%\VerbatimInput{../people.json}
 %\subsection{Menschenlesbare Datenbank}
 %\VerbatimInput{../readable_db.json}
 
