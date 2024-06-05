@@ -13,6 +13,9 @@ To fill db and generate reports only with existing db.json, run:
 `python main.py --op=stat`
 
 
+There is a LaTeX document, but I don't really know anything about LaTeX. It generates a horrible looking pdf, maybe if I'm bored I'll actually learn how to use this.
+
+
 ### Files:
 * **Q.json**: auto-generated storage for wikidata entities and their names. Delete the provided Q.json if you want to make your own project, I included it because I modified it due to discriminatory language in job names provided by wikidata.
 * **db.json**: all streets with associated eponyms, with wikidata IDs.
