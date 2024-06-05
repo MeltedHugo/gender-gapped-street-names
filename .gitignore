@@ -12,6 +12,11 @@ readable_db.json
 test.py
 people.json
 
+tex/*
+!tex/*.tex
+!tex/*.pdf
+!tex/*.png
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
